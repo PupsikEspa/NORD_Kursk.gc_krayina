@@ -7,15 +7,38 @@ class common_rf_spawner_class //общий рф
         displayName = "Общий запрос техники";
         vehicles[] =
         {
-            {"RUS_MSV_east_kamaz4310",10,"true"},
-            {"RHS_Ural_Zu23_MSV_01",1,"true"},
+            {"RHS_UAZ_MSV_01",3,"true"},
+            {"nord_uaz452b_Z",4,"true"},
+            {"RUS_GRU_west_asn233115",12,"true"},
+            {"NORD_BRDM2_RU",2,"true"},
+            {"RUS_GRU_west_btr80",3,"true"},
+            {"RUS_VDV_east_kamaz4386",3,"true"},
+            {"rhs_tigr_sts_msv",2,"true"},
+            {"RUS_GRU_west_asn233115sts",1,"true"},
+            {"bs_tigr_atgm",2,"true"},
+            {"RUS_GRU_south_kamaz63968",5,"true"},
+            {"UAZ_05_transport_F",5,"true"},
+            {"RUS_MSV_South_t72b3m",2,"true"},
+            {"nord_t80bv_v",2,"true"},
+            {"rhs_bmp3mera_msv",2,"true"},
+            {"bs_BMP_2M",1,"true"},
+            {"rhs_bmd4ma_vdv",2,"true"},
+            {"RUS_VDV_south_bmp2k",2,"true"},
+            {"rhs_bmp1p_tv",1,"true"},
+            {"RUS_GRU_south_btr82a",6,"true"},
+            {"RUS_GRU_south_btr82a",10,"true"},
+            {"VTN_KAMAZ5350_379_ZU23_EMR",1,"true"},
             {"rhs_gaz66_ammo_msv",2,"true"},
-            {"RHS_Ural_Fuel_MSV_01",1,"true"},
+            {"RUS_MSV_West_atz75557",1,"true"},
             {"RHS_Ural_Repair_MSV_01",1,"true"},
             {"tbd_120mm_pm_43",2,"true"},
             {"RUS_VDV_2b14",2,"true"},
-            {"RUS_VKS_east_mi8amtsh_Unrmed",2,"true"},
-            {"RUS_VDV_east_btrd",5,"true"}
+            {"RUS_VKS_south_mi8amtsh_Unrmed",2,"true"},
+            {"RUS_VKS_south_mi8amtsh",1,"true"},
+            {"RUS_VKS_south_mi24v_23mm_bez_pturov",1,"true"},
+            {"RUS_VKS_east_ka52",1,"true"},
+            {"RUS_VDV_south_btrd",10,"true"}
+			
 		};
         spawnPoints[] =
         {
@@ -33,10 +56,7 @@ class common_vks_spawner_class //ВКС
 	{
         displayName = "Запрос техники ВКС";
         vehicles[] =
-        {
-            {"mi24_rus_v_pturi",1,"true"},
-            {"V_TAG_Mi_35_23mm_bez_pturov",2,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"vks_spawnplace_1"}},
@@ -55,6 +75,7 @@ class logistic_rf_spawner_class //ящики рф
         displayName = "Запрос логистики";
         vehicles[] =
         {
+		
             {"rhs_7ya37_1_single",-1,"true"},
             {"rhs_7ya37_1_single",-1,"true", "Метис"},
             {"rhs_7ya37_1_single",-1,"true", "СПГ-9"},
@@ -109,13 +130,7 @@ class pdp51_spawner_class //51 ПДП
 	{
         displayName = "Запрос техники 51 ПДП";
         vehicles[] =
-        {
-            {"RHS_UAZ_MSV_01",1,"true"},
-            {"nord_uaz452b_Z",1,"true"},
-            {"RUS_VDV_SpN_asn233115",2,"true"},
-            {"RUS_VDV_SpN_btr82a",1,"true"},
-            {"RUS_GRU_west_kamaz63968",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"pdp51_spawnplace"}}
@@ -132,11 +147,7 @@ class obrmp810_spawner_class //810 ОБрМП
 	{
         displayName = "Запрос техники 810 ОБрМП";
         vehicles[] =
-        {
-			{"RHS_UAZ_MSV_01",1,"true"},
-            {"RUS_GRU_west_asn233115",1,"true"},
-            {"RUS_VDV_kamaz4386",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"obrmp810_spawnplace"}}
@@ -153,14 +164,7 @@ class obrmp155_spawner_class //155 ОБрМП
 	{
         displayName = "Запрос техники 155 ОБрМП";
         vehicles[] =
-        {
-			{"RUS_MSV_South_t72b3m",1,"true"},
-            {"rhs_bmp2_vv",1,"true"},
-            {"rhs_btr82_vv",1,"true"},
-            {"RUS_GRU_west_asn233115",2,"true"},
-            {"RUS_MSV_South_brdm2a",1,"true"},
-            {"RUS_GRU_west_kamaz63968",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"obrmp155_spawnplace"}}
@@ -177,16 +181,7 @@ class omsbr64_spawner_class //64 ОМСБр
 	{
         displayName = "Запрос техники 64 ОМСБр";
         vehicles[] =
-        {
-			{"RUS_MSV_South_t72b3m",1,"true"},
-            {"rhs_bmd4ma_vdv",2,"true"},
-            {"rhs_btr82_vv",1,"true"},
-            {"RUS_VDV_SpN_btr82a",1,"true"},
-            {"RUS_VDV_SpN_asn233115",1,"true"},
-            {"RUS_VDV_kamaz4386",2,"true"},
-            {"RUS_GRU_west_kamaz63968",1,"true"},
-            {"RUS_VDV_SpN_asn233115sts",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"omsbr64_spawnplace"}}
@@ -203,14 +198,7 @@ class pyatnashka_spawner_class //Пятнашка
 	{
         displayName = "Запрос техники Пятнашка";
         vehicles[] =
-        {
-            {"rhs_bmp1p_vv",1,"true"},
-            {"rhs_btr82_msv",1,"true"},
-            {"nord_uaz452b_Z",1,"true"},
-            {"RUS_MSV_South_asn233115",1,"true"},
-            {"RUS_MSV_West_btr80",1,"true"},
-            {"rhs_tigr_sts_msv",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"pyatnashka_spawnplace"}}
@@ -227,13 +215,7 @@ class dshp56_spawner_class //56 ДШП
 	{
         displayName = "Запрос техники 56 ДШП";
         vehicles[] =
-        {
-			{"rhs_bmp3mera_msv",1,"true"},
-            {"nord_uaz452b_Z",1,"true"},
-            {"RUS_GRU_west_asn233115",1,"true"},
-            {"rhs_tigr_sts_msv",1,"true"},
-            {"bs_tigr_atgm_deform",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"dshp56_spawnplace"}}
@@ -250,17 +232,7 @@ class omsbr200_spawner_class //200 ОМСБр
 	{
         displayName = "Запрос техники 200 ОМСБр";
         vehicles[] =
-        {
-            {"rhs_bmp3mera_msv",1,"true"},
-            {"RUS_GRU_west_kamaz63968",1,"true"},
-            {"rhs_btr82_msv",1,"true"},
-            {"RHS_UAZ_MSV_01",1,"true"},
-            {"RUS_GRU_west_asn233115",1,"true"},
-            {"RUS_VDV_SpN_asn233115",1,"true"},
-            {"RUS_MSV_South_brdm2a",1,"true"},
-            {"RUS_MSV_West_btr80",1,"true"},
-            {"bs_tigr_atgm_deform",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"omsbr200_spawnplace"}}
@@ -339,16 +311,42 @@ class common_vsu_spawner_class //общий всу
         displayName = "Общий запрос техники";
         vehicles[] =
         {
-            {"ural_ukr_krest",10,"true"},
-            {"rhsgref_cdf_b_gaz66_zu23",1,"true"},
-            {"b_afougf_gaz66_ammo",2,"true"},
-            {"b_afougf_kraz255b1_fuel",1,"true"},
-            {"b_afougf_yt_Ural_repair",1,"true"},
-            {"tbd_120mm_pm_43",2,"true"},
-            {"RUS_VDV_2b14",2,"true"},
-            {"b_afougf_Mi8MTV3_Evac200",2,"true"},
-            {"RUS_VDV_btrd",5,"true"}
-        };
+			"b_afougf_yt_UAZ_open_Base",3,"true"},
+			"nord_uaz452b_zsu",4,"true"},
+			"rhsusf_m998_d_2dr",9,"true"},
+			"NORD_BRDM2_UA",9,"true"},
+			"m113_ukr_krest",2,"true"},
+			"b_afougf_uaf_novator",3,"true"},
+			"rhsusf_m1151_mk19_v3_usmc_d",1,"true"},
+			"hmmwv_m2_krest",1,"true"},
+			"rhsusf_m1151_m2crows_usmc_wd",1,"true"},
+			"rhsusf_m966_w",1,"true"},
+			"b_afougf_yt_kozak5_unarmed_F",3,"true"},
+			"b_afougf_uaf_fiona",5,"true"},
+			"b_afougf_yt_offroad_01",5,"true"},
+			"b_afougf_yt_offroad_01",5,"true"},
+			"mkk_t64_bv_ua",2,"true"},
+			"rhsusf_m1a1aim_tuski_wd",1,"true"},
+			"b_afougf_uaf_btr4",2,"true"},
+			"FA_UAF_BTR3_NO_ATGM",1,"true"},
+			"m2a2_pixel_krest",2,"true"},
+			"b_afougf_yt_bmp2d",2,"true"},
+			"b_afougf_old_bmp1p",1,"true"},
+			"stryker_ukr_krest",2,"true"},
+			"rhsusf_m113_usarmy_M2_90",3,"true"},
+			"rhsusf_stryker_m1132_m2_np_wd",2,"true"},
+			"ural_ukr_krest",10,"true"},
+			"b_afougf_gaz66_zu23",1,"true"},
+			"b_afougf_desert_gaz66_ammo",2,"true"},
+			"ural_ukr_krest_fuel",1,"true"},
+			"gaz66_ukr_krest_repair",1,"true"},
+			"tbd_120mm_pm_43",2,"true"},
+			"b_afougf_old_2b14_82mm",2,"true"},
+			"b_afougf_Mi8MTV3_Evac200",2,"true"},
+			"mi24_ukr_v_23mm_bez_pturov",2,"true"},
+			"mi24_ukr_v_pturi",1,"true"},
+			"RUS_VDV_btrd",10,"true"}
+		};
         spawnPoints[] =
         {
             {"1",{"common_vsu_spawnplace"}}
@@ -365,11 +363,7 @@ class common_psu_spawner_class //ПСУ
 	{
         displayName = "Воздушная техника";
         vehicles[] =
-        {
-            {"mi24_ukr_v_23mm_bez_pturov",2,"true"},
-            {"mi24_ukr_v_pturi",1,"true"}
-
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"vsu_spawnplace_1"}}
@@ -457,15 +451,7 @@ class odshbr80_spawner_class //80 ОДШБр
 	{
         displayName = "Запрос техники 80 ОДШБр";
         vehicles[] =
-        {
-			{"bmp2_ukr_krest",1,"true"},
-            {"rhs_btr82_vv",1,"true"},
-            {"FA_UAF_BTR3",1,"true"},
-            {"FA_UAF_BMP1U",1,"true"},
-            {"hmmwv_pickup_ukr_krest",1,"true"},
-            {"btr80_ukr_krest",1,"true"},
-            {"b_afougf_uaf_fiona",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"odshbr80_spawnplace"}}
@@ -482,13 +468,7 @@ class gnl_spawner_class //ГНЛ
 	{
         displayName = "Запрос техники ГНЛ";
         vehicles[] =
-        {
-			{"mkk_t64_bv_ua",2,"true"},
-            {"b_afougf_uaf_btr4",2,"true"},
-            {"b_afougf_uaf_t84m",1,"true"},
-            {"FA_UAF_BMP1U",1,"true"},
-            {"rhs_btr82_vv",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"gnl_spawnplace"}}
@@ -505,12 +485,7 @@ class odsbr82_spawner_class //82 ОДШБр
 	{
         displayName = "Запрос техники 82 ОДШБр";
         vehicles[] =
-        {
-            {"hmmwv_pickup_ukr_krest",1,"true"},
-            {"b_afougf_uaf_novator",1,"true"},
-            {"b_afougf_kozak5_unarmed_F",1,"true"},
-            {"rhsusf_m1151_mk19crows_usmc_wd",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"odsbr82_spawnplace"}}
@@ -527,11 +502,7 @@ class odshbr95_spawner_class //95 ОДШБр
 	{
         displayName = "Запрос техники 95 ОДШБр";
         vehicles[] =
-        {
-			{"b_afougf_UAZ_Base",1,"true"},
-            {"uaz2206_ukr_krest",1,"true"},
-            {"hmmwv_m2_ukr_krest",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"odshbr95_spawnplace"}}
@@ -549,14 +520,7 @@ class obrmp36_spawner_class //36 ОБрМП
 	{
         displayName = "Запрос техники 36 ОБрМП";
         vehicles[] =
-        {
-			{"hmmwv_pickup_ukr_krest",2,"true"},
-            {"b_afougf_uaf_novator",1,"true"},
-            {"b_afougf_m1151_mk19_base",1,"true"},
-            {"b_afougf_kozak5_unarmed_F",1,"true"},
-            {"btr80_ukr_krest",1,"true"},
-            {"rhsusf_m1045_w_s",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"obrmp36_spawnplace"}}
@@ -573,15 +537,7 @@ class ombr61_spawner_class //61 ОМБр
 	{
         displayName = "Запрос техники ombr61";
         vehicles[] =
-        {
-			{"b_afougf_UAZ_Base",1,"true"},
-            {"uaz2206_ukr_krest",1,"true"},
-            {"hmmwv_pickup_ukr_krest",1,"true"},
-            {"b_afougf_uaf_novator",1,"true"},
-            {"b_afougf_kozak5_unarmed_F",1,"true"},
-            {"b_afougf_uaf_fiona",1,"true"},
-            {"rhsusf_m1045_w_s",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"ombr61_spawnplace"}}
@@ -597,12 +553,7 @@ class legion_pidorasov_spawner_class //ЛСР
 	{
         displayName = "Запрос техники ЛСР";
         vehicles[] =
-        {
-            {"rhs_btr82_vv",1,"true"},
-            {"FA_UAF_BTR3_NO_ATGM",1,"true"},
-            {"hmmwv_pickup_ukr_krest",1,"true"},
-            {"b_afougf_uaf_fiona",1,"true"}
-        };
+        {};
         spawnPoints[] =
         {
             {"1",{"legion_pidorasov_spawnplace"}}
