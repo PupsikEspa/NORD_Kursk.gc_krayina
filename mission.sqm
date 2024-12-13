@@ -30522,7 +30522,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="425 ОШБ";
+									value="36 ОБрМП";
 								};
 							};
 						};
@@ -30587,7 +30587,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="Gen2_fs_mex_gloves_salomon_mc_tape_2";
+								typeName="Gen2_fs_mex_gloves_saldshp56_mc_tape_2";
 								isBackpack=0;
 							};
 							watch="ItemWatch";
@@ -30699,7 +30699,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="3 ОТБр";
+									value="ГНЛ";
 								};
 							};
 						};
@@ -30865,8 +30865,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""kraken_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="kraken_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""ombr61_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="ombr61_spawner";
 																disableSimulation=1;
 															};
 															id=316;
@@ -30885,8 +30885,8 @@ class Mission
 															flags=4;
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""oshb_425_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="oshb_425_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""obrmp36_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="obrmp36_spawner";
 																disableSimulation=1;
 															};
 															id=317;
@@ -30905,8 +30905,8 @@ class Mission
 															flags=4;
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""otbr3_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="otbr3_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""gnl_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="gnl_spawner";
 																disableSimulation=1;
 															};
 															id=319;
@@ -30996,8 +30996,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""omega_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="omega_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""odsbr82_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="odsbr82_spawner";
 																disableSimulation=1;
 															};
 															id=323;
@@ -31015,8 +31015,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""ombr93_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="ombr93_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""odshbr80_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="odshbr80_spawner";
 																disableSimulation=1;
 															};
 															id=325;
@@ -31054,8 +31054,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""oambr81_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="oambr81_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""legion_pidorasov_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="legion_pidorasov_spawner";
 																disableSimulation=1;
 															};
 															id=2103;
@@ -31093,8 +31093,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""ufl_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="ufl_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""odshbr95_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="odshbr95_spawner";
 																disableSimulation=1;
 															};
 															id=62012;
@@ -31153,7 +31153,7 @@ class Mission
 				position[]={2669.6794,163.99551,1006.111};
 				angles[]={0.01955596,0.67265975,0.017652795};
 			};
-			title="Кракен";
+			title="61 ОМБр";
 			id=329;
 		};
 		class Item10
@@ -31164,7 +31164,7 @@ class Mission
 				position[]={2631.3779,162.98282,1044.5776};
 				angles[]={0,3.7364094,0.0058999332};
 			};
-			title="3 ОТБр";
+			title="ГНЛ";
 			id=331;
 		};
 		class Item11
@@ -31179,7 +31179,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="kraken_spawnplace";
+				name="ombr61_spawnplace";
 				disableSimulation=1;
 			};
 			id=333;
@@ -31228,7 +31228,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="oshb_425_spawnplace";
+				name="obrmp36_spawnplace";
 				disableSimulation=1;
 			};
 			id=334;
@@ -31277,7 +31277,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="otbr3_spawnplace";
+				name="gnl_spawnplace";
 				disableSimulation=1;
 			};
 			id=336;
@@ -31361,7 +31361,7 @@ class Mission
 													flags=7;
 													class Attributes
 													{
-														description="Командир @425 ОШБ";
+														description="Командир @36 ОБрМП";
 														isPlayable=1;
 														class Inventory
 														{
@@ -32802,8 +32802,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="oshb_425";
-												init="this setVariable [""regArs"", oshb_425_ars, true];" \n "this setVariable [""regSpawner"", oshb_425_spawner, true];";
+												name="obrmp36";
+												init="this setVariable [""regArs"", obrmp36_ars, true];" \n "this setVariable [""regSpawner"", obrmp36_spawner, true];";
 											};
 											id=33107;
 											atlOffset=0.21118164;
@@ -32818,7 +32818,7 @@ class Mission
 														class data
 														{
 															singleType="STRING";
-															value="425 ОШБ";
+															value="36 ОБрМП";
 														};
 													};
 												};
@@ -32844,7 +32844,7 @@ class Mission
 													flags=7;
 													class Attributes
 													{
-														description="Commnader @3 ОТБр";
+														description="Commnader @ГНЛ";
 														isPlayable=1;
 														class Inventory
 														{
@@ -33821,8 +33821,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="otbr3";
-												init="this setVariable [""regArs"", otbr3_ars, true];" \n "this setVariable [""regSpawner"", otbr3_spawner, true];";
+												name="gnl";
+												init="this setVariable [""regArs"", gnl_ars, true];" \n "this setVariable [""regSpawner"", gnl_spawner, true];";
 											};
 											id=33133;
 											atlOffset=0.012435913;
@@ -33837,7 +33837,7 @@ class Mission
 														class data
 														{
 															singleType="STRING";
-															value="3 ОТБр";
+															value="ГНЛ";
 														};
 													};
 												};
@@ -34473,8 +34473,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="omega";
-												init="this setVariable [""regArs"", omega_ars, true];" \n "this setVariable [""regSpawner"", omega_spawner, true];";
+												name="odsbr82";
+												init="this setVariable [""regArs"", odsbr82_ars, true];" \n "this setVariable [""regSpawner"", odsbr82_spawner, true];";
 											};
 											id=33151;
 											atlOffset=0.012634277;
@@ -34515,7 +34515,7 @@ class Mission
 													flags=7;
 													class Attributes
 													{
-														description="Командир @Кракен";
+														description="Командир @61 ОМБр";
 														isPlayable=1;
 														class Inventory
 														{
@@ -35119,8 +35119,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="kraken";
-												init="this setVariable [""regArs"", kraken_ars, true];" \n "this setVariable [""regSpawner"", kraken_spawner, true];";
+												name="ombr61";
+												init="this setVariable [""regArs"", ombr61_ars, true];" \n "this setVariable [""regSpawner"", ombr61_spawner, true];";
 											};
 											id=33162;
 											atlOffset=-1.5258789e-05;
@@ -35135,7 +35135,7 @@ class Mission
 														class data
 														{
 															singleType="STRING";
-															value="ГУР МО ""Kraken""";
+															value="ГУР МО ""ombr61""";
 														};
 													};
 												};
@@ -35161,7 +35161,7 @@ class Mission
 													flags=3;
 													class Attributes
 													{
-														description="Командир @93 ОМБр";
+														description="Командир @80 ОДШБр";
 														isPlayable=1;
 														class Inventory
 														{
@@ -36138,8 +36138,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="ombr93";
-												init="this setVariable [""regArs"", ombr93_ars, true];" \n "this setVariable [""regSpawner"", ombr93_spawner, true];";
+												name="odshbr80";
+												init="this setVariable [""regArs"", odshbr80_ars, true];" \n "this setVariable [""regSpawner"", odshbr80_spawner, true];";
 											};
 											id=33173;
 											atlOffset=0.26161194;
@@ -36154,7 +36154,7 @@ class Mission
 														class data
 														{
 															singleType="STRING";
-															value="93 ОМБр";
+															value="80 ОДШБр";
 														};
 													};
 												};
@@ -36793,7 +36793,7 @@ class Mission
 													flags=7;
 													class Attributes
 													{
-														description="Командир @ДШВ 81 ОАМБр";
+														description="Командир @ЛСР";
 														isPlayable=1;
 														class Inventory
 														{
@@ -37770,8 +37770,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="oambr81";
-												init="this setVariable [""regArs"", oambr81_ars, true];" \n "this setVariable [""regSpawner"", oambr81_spawner, true];";
+												name="legion_pidorasov";
+												init="this setVariable [""regArs"", legion_pidorasov_ars, true];" \n "this setVariable [""regSpawner"", legion_pidorasov_spawner, true];";
 											};
 											id=33202;
 											atlOffset=0.032012939;
@@ -37786,7 +37786,7 @@ class Mission
 														class data
 														{
 															singleType="STRING";
-															value="ДШВ 81 ОАМБр";
+															value="ЛСР";
 														};
 													};
 												};
@@ -38831,7 +38831,7 @@ class Mission
 													flags=7;
 													class Attributes
 													{
-														description="Командир @UFL";
+														description="Командир @95 ОДШБр";
 														isPlayable=1;
 														class Inventory
 														{
@@ -39808,8 +39808,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="ufl";
-												init="this setVariable [""regArs"", ufl_ars, true];" \n "this setVariable [""regSpawner"", ufl_spawner, true];";
+												name="odshbr95";
+												init="this setVariable [""regArs"", odshbr95_ars, true];" \n "this setVariable [""regSpawner"", odshbr95_spawner, true];";
 											};
 											id=56915;
 											atlOffset=0.0076599121;
@@ -39824,7 +39824,7 @@ class Mission
 														class data
 														{
 															singleType="STRING";
-															value="UFL";
+															value="odshbr95";
 														};
 													};
 												};
@@ -40910,7 +40910,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="omega_spawnplace";
+				name="odsbr82_spawnplace";
 				disableSimulation=1;
 			};
 			id=566;
@@ -41131,7 +41131,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="Кракен";
+									value="61 ОМБр";
 								};
 							};
 						};
@@ -41196,7 +41196,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="Gen2_fs_mex_gloves_salomon_mm14_2";
+								typeName="Gen2_fs_mex_gloves_saldshp56_mm14_2";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -41317,7 +41317,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="93 ОМБр";
+									value="80 ОДШБр";
 								};
 							};
 						};
@@ -41401,7 +41401,7 @@ class Mission
 				position[]={2659.9033,164.71266,962.94537};
 				angles[]={0.017401127,3.6090941,0.019816363};
 			};
-			title="93 ОМБр";
+			title="80 ОДШБр";
 			id=579;
 		};
 		class Item22
@@ -41416,7 +41416,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="ombr93_spawnplace";
+				name="odshbr80_spawnplace";
 				disableSimulation=1;
 			};
 			id=580;
@@ -41559,7 +41559,7 @@ class Mission
 				position[]={2682.3296,166.47604,995.19366};
 				angles[]={0,0.5677157,0};
 			};
-			title="425 ОШБ";
+			title="36 ОБрМП";
 			id=606;
 			atlOffset=1.7760773;
 		};
@@ -42206,7 +42206,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="Gen2_fs_mex_gloves_salomon_mm14_2";
+								typeName="Gen2_fs_mex_gloves_saldshp56_mm14_2";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -42260,7 +42260,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="ДШВ 81 ОАМБр";
+									value="ЛСР";
 								};
 							};
 						};
@@ -42387,7 +42387,7 @@ class Mission
 				position[]={2645.8186,163.35982,1017.2813};
 				angles[]={0.0163339,0.70379633,0.012415296};
 			};
-			title="ДШВ 81 ОАМБр";
+			title="ЛСР";
 			id=2126;
 		};
 		class Item36
@@ -42402,7 +42402,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="oambr81_spawnplace";
+				name="legion_pidorasov_spawnplace";
 				disableSimulation=1;
 			};
 			id=2127;
@@ -42464,7 +42464,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="Gen2_fs_mex_gloves_salomon_mm14_2";
+								typeName="Gen2_fs_mex_gloves_saldshp56_mm14_2";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -43065,7 +43065,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n "};" \n "";
-				name="oambr81_ars";
+				name="legion_pidorasov_ars";
 			};
 			id=2122;
 			type="rhs_spec_weapons_crate";
@@ -43140,7 +43140,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n " this addItemCargoGlobal [""rhsusf_mag_6Rnd_M441_HE"", 5];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n "};" \n "";
-				name="oshb_425_ars";
+				name="obrmp36_ars";
 			};
 			id=284;
 			type="rhs_spec_weapons_crate";
@@ -43215,7 +43215,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n "};" \n "";
-				name="ombr93_ars";
+				name="odshbr80_ars";
 			};
 			id=575;
 			type="rhs_spec_weapons_crate";
@@ -43364,7 +43364,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 1];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n " this addItemCargoGlobal [""rhsusf_mag_6Rnd_M441_HE"", 5];" \n "};";
-				name="otbr3_ars";
+				name="gnl_ars";
 			};
 			id=294;
 			type="rhs_spec_weapons_crate";
@@ -43439,7 +43439,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n " this addItemCargoGlobal [""rhsusf_mag_6Rnd_M441_HE"", 5];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n "};" \n "";
-				name="kraken_ars";
+				name="ombr61_ars";
 			};
 			id=281;
 			type="rhs_spec_weapons_crate";
@@ -43514,7 +43514,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n "};" \n "";
-				name="omega_ars";
+				name="odsbr82_ars";
 			};
 			id=565;
 			type="rhs_spec_weapons_crate";
@@ -55079,7 +55079,7 @@ class Mission
 					class Attributes
 					{
 						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 4];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n "};" \n "";
-						name="odshbr31_ars";
+						name="pdp51_ars";
 					};
 					id=56904;
 					type="rhs_spec_weapons_crate";
@@ -55190,7 +55190,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="31 ОДШБр";
+											value="51 ПДП";
 										};
 									};
 								};
@@ -55337,7 +55337,7 @@ class Mission
 					class Attributes
 					{
 						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 4];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n "};" \n "";
-						name="odshbr11_ars";
+						name="omsbr64_ars";
 					};
 					id=56906;
 					type="rhs_spec_weapons_crate";
@@ -55448,7 +55448,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="11 ОДШБр";
+											value="64 ОМСБр";
 										};
 									};
 								};
@@ -55851,7 +55851,7 @@ class Mission
 					class Attributes
 					{
 						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n "};" \n "";
-						name="ufl_ars";
+						name="odshbr95_ars";
 					};
 					id=56905;
 					type="rhs_spec_weapons_crate";
@@ -55926,7 +55926,7 @@ class Mission
 					class Attributes
 					{
 						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 4];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n "};" \n "";
-						name="sobr_ars";
+						name="obrmp810_ars";
 					};
 					id=56902;
 					type="rhs_spec_weapons_crate";
@@ -56183,7 +56183,7 @@ class Mission
 					class Attributes
 					{
 						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 4];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n "};" \n "";
-						name="churki_ars";
+						name="obrmp155_ars";
 					};
 					id=56910;
 					type="rhs_spec_weapons_crate";
@@ -56621,8 +56621,8 @@ class Mission
 					side="Empty";
 					class Attributes
 					{
-						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""odshbr31_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-						name="odshbr31_spawner";
+						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""pdp51_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+						name="pdp51_spawner";
 						disableSimulation=1;
 					};
 					id=56674;
@@ -56728,8 +56728,8 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""odshbr11_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-						name="odshbr11_spawner";
+						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""omsbr64_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+						name="omsbr64_spawner";
 						disableSimulation=1;
 					};
 					id=56677;
@@ -56747,8 +56747,8 @@ class Mission
 					side="Empty";
 					class Attributes
 					{
-						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""sobr_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-						name="sobr_spawner";
+						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""obrmp810_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+						name="obrmp810_spawner";
 						disableSimulation=1;
 					};
 					id=56678;
@@ -56767,8 +56767,8 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""churki_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-						name="churki_spawner";
+						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""obrmp155_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+						name="obrmp155_spawner";
 						disableSimulation=1;
 					};
 					id=56680;
@@ -56805,8 +56805,8 @@ class Mission
 					side="Empty";
 					class Attributes
 					{
-						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""obrspn2_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-						name="obrspn2_spawner";
+						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""pyatnashka_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+						name="pyatnashka_spawner";
 						disableSimulation=1;
 					};
 					id=56682;
@@ -56854,7 +56854,7 @@ class Mission
 						position[]={2661.99,163.62308,1020.2514};
 						angles[]={0.012529992,0.71807319,0.020828305};
 					};
-					title="_UFL";
+					title="_odshbr95";
 					id=56689;
 				};
 				class Item27
@@ -56865,7 +56865,7 @@ class Mission
 						position[]={13900.294,111.41645,13665.963};
 						angles[]={0.033267431,4.3998833,6.2745886};
 					};
-					title="11 ОДШБр";
+					title="64 ОМСБр";
 					id=56691;
 					atlOffset=-7.6293945e-06;
 				};
@@ -56877,7 +56877,7 @@ class Mission
 						position[]={13900.464,111.46604,13631.662};
 						angles[]={6.2621264,6.0618505,6.2750149};
 					};
-					title="2 ОБрСпН";
+					title="Пятнашка";
 					id=56692;
 					atlOffset=-7.6293945e-06;
 				};
@@ -56893,7 +56893,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						name="odshbr31_spawnplace";
+						name="pdp51_spawnplace";
 						disableSimulation=1;
 					};
 					id=56696;
@@ -57040,7 +57040,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						name="odshbr11_spawnplace";
+						name="omsbr64_spawnplace";
 						disableSimulation=1;
 					};
 					id=56699;
@@ -57089,7 +57089,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						name="sobr_spawnplace";
+						name="obrmp810_spawnplace";
 						disableSimulation=1;
 					};
 					id=56700;
@@ -57138,7 +57138,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						name="ufl_spawnplace";
+						name="odshbr95_spawnplace";
 						disableSimulation=1;
 					};
 					id=56701;
@@ -57187,7 +57187,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						name="churki_spawnplace";
+						name="obrmp155_spawnplace";
 						disableSimulation=1;
 					};
 					id=56702;
@@ -57292,7 +57292,7 @@ class Mission
 																					flags=7;
 																					class Attributes
 																					{
-																						description="Командир @31 ОДШБр";
+																						description="Командир @51 ПДП";
 																						isPlayable=1;
 																						class Inventory
 																						{
@@ -58782,8 +58782,8 @@ class Mission
 																			};
 																			class Attributes
 																			{
-																				name="odshbr31";
-																				init="this setVariable [""regArs"", odshbr31_ars, true];" \n "this setVariable [""regSpawner"", odshbr31_spawner, true];";
+																				name="pdp51";
+																				init="this setVariable [""regArs"", pdp51_ars, true];" \n "this setVariable [""regSpawner"", pdp51_spawner, true];";
 																			};
 																			id=56704;
 																			atlOffset=3.0517578e-05;
@@ -58798,7 +58798,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="31 ОДШБр";
+																							value="51 ПДП";
 																						};
 																					};
 																				};
@@ -58824,7 +58824,7 @@ class Mission
 																					flags=7;
 																					class Attributes
 																					{
-																						description="Командир @11 ОДШБр";
+																						description="Командир @64 ОМСБр";
 																						isPlayable=1;
 																						class Inventory
 																						{
@@ -60555,8 +60555,8 @@ class Mission
 																			};
 																			class Attributes
 																			{
-																				name="odshbr11";
-																				init="this setVariable [""regArs"", odshbr11_ars, true];" \n "this setVariable [""regSpawner"", odshbr11_spawner, true];";
+																				name="omsbr64";
+																				init="this setVariable [""regArs"", omsbr64_ars, true];" \n "this setVariable [""regSpawner"", omsbr64_spawner, true];";
 																			};
 																			id=56730;
 																			atlOffset=1.5258789e-05;
@@ -60571,7 +60571,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="11 ОДШБр";
+																							value="64 ОМСБр";
 																						};
 																					};
 																				};
@@ -61487,8 +61487,8 @@ class Mission
 																			};
 																			class Attributes
 																			{
-																				name="sobr";
-																				init="this setVariable [""regArs"", sobr_ars, true];" \n "this setVariable [""regSpawner"", sobr_spawner, true];";
+																				name="obrmp810";
+																				init="this setVariable [""regArs"", obrmp810_ars, true];" \n "this setVariable [""regSpawner"", obrmp810_spawner, true];";
 																			};
 																			id=56776;
 																			atlOffset=-7.6293945e-06;
@@ -62720,8 +62720,8 @@ class Mission
 																			};
 																			class Attributes
 																			{
-																				name="churki";
-																				init="this setVariable [""regArs"", churki_ars, true];" \n "this setVariable [""regSpawner"", churki_spawner, true];";
+																				name="obrmp155";
+																				init="this setVariable [""regArs"", obrmp155_ars, true];" \n "this setVariable [""regSpawner"", obrmp155_spawner, true];";
 																			};
 																			id=56792;
 																			atlOffset=-1.5258789e-05;
@@ -62762,7 +62762,7 @@ class Mission
 																					flags=7;
 																					class Attributes
 																					{
-																						description="Командир @2 ОБрСпН";
+																						description="Командир @Пятнашка";
 																						isPlayable=1;
 																						class Inventory
 																						{
@@ -64072,8 +64072,8 @@ class Mission
 																			};
 																			class Attributes
 																			{
-																				name="obrspn2";
-																				init="this setVariable [""regArs"", obrspn2_ars, true];" \n "this setVariable [""regSpawner"", obrspn2_spawner, true];";
+																				name="pyatnashka";
+																				init="this setVariable [""regArs"", pyatnashka_ars, true];" \n "this setVariable [""regSpawner"", pyatnashka_spawner, true];";
 																			};
 																			id=56813;
 																			atlOffset=-1.5258789e-05;
@@ -64088,7 +64088,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="2 ОБрСпН";
+																							value="Пятнашка";
 																						};
 																					};
 																				};
@@ -65453,8 +65453,8 @@ class Mission
 																			};
 																			class Attributes
 																			{
-																				name="omon";
-																				init="this setVariable [""regArs"", omon_ars, true];" \n "this setVariable [""regSpawner"", omon_spawner, true];";
+																				name="dshp56";
+																				init="this setVariable [""regArs"", dshp56_ars, true];" \n "this setVariable [""regSpawner"", dshp56_spawner, true];";
 																			};
 																			id=56847;
 																			atlOffset=-7.6293945e-06;
@@ -67028,7 +67028,7 @@ class Mission
 																					flags=7;
 																					class Attributes
 																					{
-																						description="Командир @200 МСБр";
+																						description="Командир @200 ОМСБр";
 																						isPlayable=1;
 																						class Inventory
 																						{
@@ -68755,8 +68755,8 @@ class Mission
 																			};
 																			class Attributes
 																			{
-																				name="msbr200";
-																				init="this setVariable [""regArs"", msbr200_ars, true];" \n "this setVariable [""regSpawner"", msbr200_spawner, true];";
+																				name="omsbr200";
+																				init="this setVariable [""regArs"", omsbr200_ars, true];" \n "this setVariable [""regSpawner"", omsbr200_spawner, true];";
 																			};
 																			id=80390;
 																			atlOffset=2.2888184e-05;
@@ -68936,7 +68936,7 @@ class Mission
 					class Attributes
 					{
 						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 4];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n "};" \n "";
-						name="obrspn2_ars";
+						name="pyatnashka_ars";
 					};
 					id=56908;
 					type="rhs_spec_weapons_crate";
@@ -69047,7 +69047,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="2 ОБрСпН";
+											value="Пятнашка";
 										};
 									};
 								};
@@ -69192,7 +69192,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						name="obrspn2_spawnplace";
+						name="pyatnashka_spawnplace";
 						disableSimulation=1;
 					};
 					id=56892;
@@ -69307,7 +69307,7 @@ class Mission
 						position[]={13900.349,111.17644,13675.142};
 						angles[]={0.041442197,1.1191605,6.2706509};
 					};
-					title="31 ОДШБр";
+					title="51 ПДП";
 					id=56693;
 					atlOffset=0.10235596;
 				};
@@ -69322,8 +69322,8 @@ class Mission
 					side="Empty";
 					class Attributes
 					{
-						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""omon_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-						name="omon_spawner";
+						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""dshp56_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+						name="dshp56_spawner";
 						disableSimulation=1;
 					};
 					id=56684;
@@ -69354,7 +69354,7 @@ class Mission
 					class Attributes
 					{
 						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 4];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n "};" \n "";
-						name="omon_ars";
+						name="dshp56_ars";
 					};
 					id=56907;
 					type="rhs_spec_weapons_crate";
@@ -69610,7 +69610,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						name="omon_spawnplace";
+						name="dshp56_spawnplace";
 						disableSimulation=1;
 					};
 					id=56897;
@@ -70083,7 +70083,7 @@ class Mission
 						position[]={13899.827,111.63378,13656.764};
 						angles[]={0.016475609,6.0619564,6.2707896};
 					};
-					title="200 МСБр";
+					title="200 ОМСБр";
 					id=80386;
 				};
 				class Item57
@@ -70099,7 +70099,7 @@ class Mission
 					class Attributes
 					{
 						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 4];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n "};" \n "";
-						name="msbr200_ars";
+						name="omsbr200_ars";
 					};
 					id=80387;
 					type="rhs_spec_weapons_crate";
@@ -70173,7 +70173,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						name="msbr200_spawnplace";
+						name="omsbr200_spawnplace";
 						disableSimulation=1;
 					};
 					id=80388;
@@ -70221,8 +70221,8 @@ class Mission
 					side="Empty";
 					class Attributes
 					{
-						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""msbr200_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-						name="msbr200_spawner";
+						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""omsbr200_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+						name="omsbr200_spawner";
 						disableSimulation=1;
 					};
 					id=80389;
@@ -70258,7 +70258,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="Gen2_fs_mex_gloves_salomon_mm14_2";
+								typeName="Gen2_fs_mex_gloves_saldshp56_mm14_2";
 								isBackpack=0;
 								class ItemCargo
 								{
@@ -70312,7 +70312,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="UFL";
+									value="odshbr95";
 								};
 							};
 						};
@@ -80342,7 +80342,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="Gen2_fs_mex_gloves_salomon_mm14_2";
+								typeName="Gen2_fs_mex_gloves_saldshp56_mm14_2";
 								isBackpack=0;
 								class ItemCargo
 								{
