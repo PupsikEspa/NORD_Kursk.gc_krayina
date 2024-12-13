@@ -270,7 +270,62 @@ class omsbr200_spawner_class //200 ОМСБр
 };
 
 // РУСНЯВЫЕ СПНЫ
+class akhmat_spawner_class //Ахмат
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == akhmat_spawner)"; // "(playerSide in [west,independent])"
+    
+    class akhmat_spawner_class
+	{
+        displayName = "Запрос техники Ахмат";
+        vehicles[] =
+        {
+            //{"rhs_bmp3mera_msv",1,"true"}
+        };
+        spawnPoints[] =
+        {
+            {"1",{"akhmat_spawnplace"}}
+        };
+        
+    };
+};
 
+class finist_spawner_class //ОМОН «Финист»
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == finist_spawner)"; // "(playerSide in [west,independent])"
+    
+    class finist_spawner_class
+	{
+        displayName = "Запрос техники ОМОН «Финист»";
+        vehicles[] =
+        {
+            //{"rhs_bmp3mera_msv",1,"true"}
+        };
+        spawnPoints[] =
+        {
+            {"1",{"finist_spawnplace"}}
+        };
+        
+    };
+};
+
+class ps_fsb_spawner_class //ПС ФСБ
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == ps_fsb_spawner)"; // "(playerSide in [west,independent])"
+    
+    class ps_fsb_spawner_class
+	{
+        displayName = "Запрос техники ПС ФСБ";
+        vehicles[] =
+        {
+            //{"rhs_bmp3mera_msv",1,"true"}
+        };
+        spawnPoints[] =
+        {
+            {"1",{"ps_fsb_spawnplace"}}
+        };
+        
+    };
+};
 
 
 //ХОХЛЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
