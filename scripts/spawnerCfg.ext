@@ -561,6 +561,64 @@ class legion_pidorasov_spawner_class //ЛСР
         
     };
 };
+
+class tso_a_spawner_class //ЦСО "А"
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == tso_a_spawner)"; // "(playerSide in [west,independent])"
+    
+    class tso_a_spawner_class
+	{
+        displayName = "Запрос техники";
+        vehicles[] =
+        {
+            {"RHS_UAZ_MSV_01",4,"true"}
+        };
+        spawnPoints[] =
+        {
+            {"1",{"tso_a_spawnplace"}}
+        };
+        
+    };
+};
+
+class oppcp8_spawner_class //8 ОПСпП
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == oppcp8_spawner)"; // "(playerSide in [west,independent])"
+    
+    class oppcp8_spawner_class
+	{
+        displayName = "Запрос техники";
+        vehicles[] =
+        {
+            {"RHS_UAZ_MSV_01",8,"true"}
+        };
+        spawnPoints[] =
+        {
+            {"1",{"oppcp8_spawnplace"}}
+        };
+        
+    };
+};
+
+class msco73_spawner_class //73 МЦСО
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == msco73_spawner)"; // "(playerSide in [west,independent])"
+    
+    class msco73_spawner_class
+	{
+        displayName = "Запрос техники";
+        vehicles[] =
+        {
+            {"RHS_UAZ_MSV_01",73,"true"}
+        };
+        spawnPoints[] =
+        {
+            {"1",{"msco73_spawnplace"}}
+        };
+        
+    };
+};
+
 class event_spawner_class //Ивентологи
 {
     conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == event_spawner)"; // "(playerSide in [west,independent])"
