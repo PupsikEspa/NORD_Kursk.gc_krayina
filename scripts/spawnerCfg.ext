@@ -34,9 +34,6 @@ class common_rf_spawner_class //общий рф
             {"tbd_120mm_pm_43",2,"true"},
             {"RUS_VDV_2b14",2,"true"},
             {"RUS_VKS_south_mi8amtsh_Unrmed",2,"true"},
-            {"RUS_VKS_south_mi8amtsh",1,"true"},
-            {"RUS_VKS_south_mi24v_23mm_bez_pturov",1,"true"},
-            {"RUS_VKS_east_ka52",1,"true"},
             {"RUS_VDV_south_btrd",10,"true"}
 			
 		};
@@ -56,7 +53,11 @@ class common_vks_spawner_class //ВКС
 	{
         displayName = "Запрос техники ВКС";
         vehicles[] =
-        {};
+        {
+            {"RUS_VKS_south_mi8amtsh",1,"true"},
+            {"RUS_VKS_south_mi24v_23mm_bez_pturov",1,"true"},
+            {"RUS_VKS_east_ka52",1,"true"},
+		};
         spawnPoints[] =
         {
             {"1",{"vks_spawnplace_1"}},
@@ -343,8 +344,6 @@ class common_vsu_spawner_class //общий всу
 			{"tbd_120mm_pm_43",2,"true"},
 			{"b_afougf_old_2b14_82mm",2,"true"},
 			{"b_afougf_Mi8MTV3_Evac200",2,"true"},
-			{"mi24_ukr_v_23mm_bez_pturov",2,"true"},
-			{"mi24_ukr_v_pturi",1,"true"},
 			{"RUS_VDV_btrd",10,"true"}
 		};
         spawnPoints[] =
@@ -363,7 +362,10 @@ class common_psu_spawner_class //ПСУ
 	{
         displayName = "Воздушная техника";
         vehicles[] =
-        {};
+        {
+			{"mi24_ukr_v_23mm_bez_pturov",2,"true"},
+			{"mi24_ukr_v_pturi",1,"true"},
+		};
         spawnPoints[] =
         {
             {"1",{"vsu_spawnplace_1"}}
