@@ -20,6 +20,6 @@ loop_saving = [] spawn {
 				};
 			} forEach allDead;
 		};
-		sleep 300;
+		sleep 600;
 	};
 };
