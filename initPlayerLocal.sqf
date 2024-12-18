@@ -6,6 +6,12 @@ _EndSplashScreen = {
         sleep 3;
     };
 };
+
+//ТАБЛИЧКИ
+[] execVM "scripts\plates_rus.sqf"; ВС РФ
+[] execVM "scripts\plates_ukr.sqf"; ВСУ
+
+
 [] spawn _EndSplashScreen;
 //////////////////////////////////////////////////////
 

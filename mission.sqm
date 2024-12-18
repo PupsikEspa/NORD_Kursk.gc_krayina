@@ -71156,7 +71156,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						name="ahmat_plate";
+						name="akhmat_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};
