@@ -8,9 +8,8 @@ _EndSplashScreen = {
 };
 
 //ТАБЛИЧКИ
-[] execVM "scripts\plates_rus.sqf"; ВС РФ
-speep 0.01;
-[] execVM "scripts\plates_ukr.sqf"; ВСУ
+[] execVM "scripts\plates_rus.sqf"; //ВС РФ
+[] execVM "scripts\plates_ukr.sqf"; //ВСУ
 
 
 [] spawn _EndSplashScreen;
