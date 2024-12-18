@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=72468;
+		nextID=72525;
 	};
 	class Camera
 	{
-		pos[]={13845.713,130.41234,13506.792};
-		dir[]={-0.1437308,-0.65148139,-0.74500966};
-		up[]={-0.12342235,0.75860959,-0.6397481};
-		aside[]={-0.98195314,-1.2600503e-07,0.18944257};
+		pos[]={13895.684,156.09918,13452.074};
+		dir[]={-0.14372203,-0.65144032,-0.74496275};
+		up[]={-0.12340362,0.75869989,-0.63964522};
+		aside[]={-0.9818939,0,0.18943198};
 	};
 };
 binarizationWanted=0;
@@ -560,7 +560,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -586,7 +586,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -612,7 +612,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -41672,7 +41672,7 @@ class Mission
 					};
 					id=56910;
 					type="rhs_spec_weapons_crate";
-					atlOffset=0.032363892;
+					atlOffset=0.032341003;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -42140,7 +42140,7 @@ class Mission
 					};
 					title="64 ОМСБр";
 					id=56691;
-					atlOffset=1.5258789e-05;
+					atlOffset=7.6293945e-06;
 				};
 				class Item22
 				{
@@ -42208,8 +42208,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13895.141,114.93436,13403.754};
-						angles[]={0,0.027373066,0.016417621};
+						position[]={13895.379,114.95744,13414.364};
+						angles[]={-0,0.027373066,0.020805396};
 					};
 					side="Empty";
 					flags=4;
@@ -42220,7 +42220,7 @@ class Mission
 					};
 					id=56697;
 					type="Land_BatteryPack_01_closed_olive_F";
-					atlOffset=-0.00016021729;
+					atlOffset=2.2888184e-05;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -53776,7 +53776,7 @@ class Mission
 					};
 					id=80389;
 					type="Land_Laptop_03_sand_F";
-					atlOffset=0.79682159;
+					atlOffset=0.79681396;
 				};
 				class Item49
 				{
@@ -60869,7 +60869,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13837.813,116.62906,13309.098};
-								angles[]={0,0.015860846,-0};
+								angles[]={0,0.015860846,0};
 							};
 							side="Empty";
 							flags=5;
@@ -60917,7 +60917,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13839.99,115.60235,13481.659};
-								angles[]={0,0.015860846,-0};
+								angles[]={0,0.015860846,0};
 							};
 							side="Empty";
 							flags=5;
@@ -67099,7 +67099,7 @@ class Mission
 			};
 			id=105258;
 			type="Land_CamoConcreteWall_01_l_4m_v1_F";
-			atlOffset=0.29138184;
+			atlOffset=0.29138947;
 		};
 		class Item147
 		{
@@ -67156,7 +67156,7 @@ class Mission
 			};
 			id=105262;
 			type="Land_CamoConcreteWall_01_l_4m_v1_F";
-			atlOffset=0.0046920776;
+			atlOffset=0.0046844482;
 		};
 		class Item150
 		{
@@ -67194,7 +67194,7 @@ class Mission
 			};
 			id=105264;
 			type="Land_CamoConcreteWall_01_l_4m_v1_F";
-			atlOffset=0.062767029;
+			atlOffset=0.062759399;
 		};
 		class Item152
 		{
@@ -67555,7 +67555,7 @@ class Mission
 			};
 			id=105284;
 			type="Land_CamoConcreteWall_01_l_4m_v1_F";
-			atlOffset=1.0070038;
+			atlOffset=1.0069962;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -69011,6 +69011,7 @@ class Mission
 			};
 			id=105536;
 			type="rhs_Flag_Russia_F";
+			atlOffset=-7.6293945e-06;
 		};
 		class Item248
 		{
@@ -71078,7 +71079,7 @@ class Mission
 			b=1.2180001;
 			angle=180.96294;
 			id=105824;
-			atlOffset=2.2888184e-05;
+			atlOffset=-2.2888184e-05;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -71162,7 +71163,7 @@ class Mission
 					};
 					id=105835;
 					type="SignAd_Sponsor_Vrana_F";
-					atlOffset=0.0029983521;
+					atlOffset=0.0030059814;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -71757,7 +71758,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={2581.0703,165.14691,970.54688};
-						angles[]={0,4.5162282,-0};
+						angles[]={0,4.5162282,0};
 					};
 					side="Empty";
 					flags=5;
@@ -72321,6 +72322,7 @@ class Mission
 			};
 			id=105867;
 			type="Land_DragonsTeeth_01_1x1_new_redwhite_F";
+			atlOffset=7.6293945e-06;
 			class CustomAttributes
 			{
 				class Attribute0
