@@ -41,11 +41,11 @@ if (_showWarning) then {
     _saveTimeAndDate = ([missionConfigFile >> "CfgGradPersistence", "saveTimeAndDate", 0] call BIS_fnc_returnConfigEntry) > 0;
     if (_saveTimeAndDate) then {[] call FUNC(saveTimeAndDate)};
 
-    _savePlayerInventory = ([missionConfigFile >> "CfgGradPersistence", "savePlayerInventory", 1] call BIS_fnc_returnConfigEntry) == 1;
+    //_savePlayerInventory = ([missionConfigFile >> "CfgGradPersistence", "savePlayerInventory", 1] call BIS_fnc_returnConfigEntry) == 1;
     _savePlayerDamage = ([missionConfigFile >> "CfgGradPersistence", "savePlayerDamage", 1] call BIS_fnc_returnConfigEntry) == 1;
     _savePlayerPosition = ([missionConfigFile >> "CfgGradPersistence", "savePlayerPosition", 1] call BIS_fnc_returnConfigEntry) == 1;
     _savePlayerMoney = ([missionConfigFile >> "CfgGradPersistence", "savePlayerMoney", 1] call BIS_fnc_returnConfigEntry) == 1;
-    if (_savePlayerInventory || _savePlayerDamage || _savePlayerPosition || _savePlayerMoney) then {[_savePlayerInventory,_savePlayerDamage,_savePlayerPosition,_savePlayerMoney,_allVariableClasses] call FUNC(saveAllPlayers)};
+    if (/*_savePlayerInventory ||*/ _savePlayerDamage || _savePlayerPosition || _savePlayerMoney) then {[/*_savePlayerInventory,*/_savePlayerDamage,_savePlayerPosition,_savePlayerMoney,_allVariableClasses] call FUNC(saveAllPlayers)};
 
     [_allVariableClasses] call FUNC(saveVariables);
 
