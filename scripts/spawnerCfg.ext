@@ -26,7 +26,6 @@ class common_rf_spawner_class //общий рф
             {"RUS_VDV_south_bmp2k",2,"true"},
             {"rhs_bmp1p_tv",1,"true"},
             {"RUS_GRU_south_btr82a",6,"true"},
-            {"RUS_GRU_south_btr82a",10,"true"},
             {"VTN_KAMAZ5350_379_ZU23_EMR",1,"true"},
             {"rhs_gaz66_ammo_msv",2,"true"},
             {"RUS_MSV_West_atz75557",1,"true"},
