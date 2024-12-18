@@ -93,7 +93,7 @@ if (_savePlayerInventory) then {
         };
     };
 
-    [_unitDataHash, "inventory", _loadout] call CBA_fnc_hashSet;
+    [_unitDataHash, "inventory", []] call CBA_fnc_hashSet; // чтобы сохранялся инвентарь пишем _loadout а чтобы не сохранялся []
 };
 
 if (_savePlayerDamage) then {
