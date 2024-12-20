@@ -3,7 +3,7 @@
 params [
     "_unit",
     ["_save",false],
-    //["_savePlayerInventory",([missionConfigFile >> "CfgGradPersistence", "savePlayerInventory", 1] call BIS_fnc_returnConfigEntry) == 1],
+    ["_savePlayerInventory",([missionConfigFile >> "CfgGradPersistence", "savePlayerInventory", 1] call BIS_fnc_returnConfigEntry) == 1],
     ["_savePlayerDamage",([missionConfigFile >> "CfgGradPersistence", "savePlayerDamage", 0] call BIS_fnc_returnConfigEntry) == 1],
     ["_savePlayerPosition",([missionConfigFile >> "CfgGradPersistence", "savePlayerPosition", 0] call BIS_fnc_returnConfigEntry) == 1],
     ["_savePlayerMoney",([missionConfigFile >> "CfgGradPersistence", "savePlayerMoney", 0] call BIS_fnc_returnConfigEntry) == 1],
@@ -39,7 +39,7 @@ if (!([_unit] call ace_common_fnc_isAwake)) exitWith
 }; 
 
 private _unitDataHash = [[],false] call CBA_fnc_hashCreate;
-/*
+
 if (_savePlayerInventory) then {
 
     private _loadout = getUnitLoadout _unit;
@@ -93,9 +93,9 @@ if (_savePlayerInventory) then {
         };
     };
 
-    [_unitDataHash, "inventory", []] call CBA_fnc_hashSet; // чтобы сохранялся инвентарь пишем _loadout а чтобы не сохранялся []
+    [_unitDataHash, "inventory", _loadout] call CBA_fnc_hashSet;
 };
-*/
+
 if (_savePlayerDamage) then {
     private _damage = [_unit] call ace_medical_fnc_serializeState;
     [_unitDataHash,"damage",_damage] call CBA_fnc_hashSet;

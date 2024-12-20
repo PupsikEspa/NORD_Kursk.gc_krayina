@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=73162;
+		nextID=73255;
 	};
 	class Camera
 	{
-		pos[]={6008.667,209.29544,7977.8354};
-		dir[]={0.92031771,0.16126762,-0.35639673};
-		up[]={-0.15038222,0.98691159,0.058236249};
-		aside[]={-0.36112407,-1.3085082e-07,-0.93252397};
+		pos[]={13782.318,152.9734,13330.563};
+		dir[]={0.70406389,-0.55496562,0.44321996};
+		up[]={0.46970487,0.83183813,0.29568553};
+		aside[]={0.53278726,-6.92904e-07,-0.8463403};
 	};
 };
 binarizationWanted=0;
@@ -576,7 +576,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -602,7 +602,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -628,7 +628,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -65702,7 +65702,7 @@ class Mission
 			type="";
 			a=100;
 			b=1017.8805;
-			angle=12.724333;
+			angle=12.724332;
 			id=104757;
 			atlOffset=3.2644653;
 			class CustomAttributes
@@ -65759,7 +65759,7 @@ class Mission
 			type="";
 			a=100;
 			b=928.43835;
-			angle=127.17788;
+			angle=127.17787;
 			id=104759;
 			atlOffset=16.290253;
 			class CustomAttributes
@@ -65816,7 +65816,7 @@ class Mission
 			type="";
 			a=100;
 			b=1348.8197;
-			angle=83.035622;
+			angle=83.035614;
 			id=104761;
 			atlOffset=33.989304;
 			class CustomAttributes
@@ -65930,7 +65930,7 @@ class Mission
 			type="";
 			a=100;
 			b=668.00232;
-			angle=355.12253;
+			angle=355.1225;
 			id=104763;
 			atlOffset=29.262436;
 			class CustomAttributes
@@ -72655,7 +72655,7 @@ class Mission
 			type="";
 			a=37.265522;
 			b=1772.2715;
-			angle=84.999969;
+			angle=84.999962;
 			id=111221;
 			atlOffset=-6.4017029;
 			class CustomAttributes
@@ -72712,7 +72712,7 @@ class Mission
 			type="";
 			a=100;
 			b=390.24942;
-			angle=333.25754;
+			angle=333.25751;
 			id=111710;
 			atlOffset=0.16697693;
 			class CustomAttributes
@@ -72769,7 +72769,7 @@ class Mission
 			type="";
 			a=100;
 			b=447.51028;
-			angle=316.17877;
+			angle=316.17874;
 			id=111711;
 			atlOffset=0.055343628;
 			class CustomAttributes
@@ -72940,7 +72940,7 @@ class Mission
 			type="";
 			a=100;
 			b=999.20166;
-			angle=350.70941;
+			angle=350.70938;
 			id=111714;
 			atlOffset=-3.0205994;
 			class CustomAttributes
