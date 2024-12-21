@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=72822;
+		nextID=72885;
 	};
 	class Camera
 	{
-		pos[]={2665.3506,188.31137,990.12146};
-		dir[]={-0.59895974,-0.66842794,-0.44096929};
-		up[]={-0.538288,0.74376649,-0.39630112};
-		aside[]={-0.59287727,-1.3204408e-07,0.80529296};
+		pos[]={2661.5911,179.79228,999.02386};
+		dir[]={-0.40839037,-0.71251363,0.57056838};
+		up[]={-0.41471216,0.70164567,0.5794009};
+		aside[]={0.81316757,-7.0765964e-08,0.58203357};
 	};
 };
 binarizationWanted=0;
@@ -619,7 +619,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -645,7 +645,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -658,7 +658,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -671,7 +671,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -72445,7 +72445,7 @@ class Mission
 			type="";
 			a=100;
 			b=1119.6073;
-			angle=107.45367;
+			angle=107.45366;
 			id=105870;
 			atlOffset=29.516403;
 			class CustomAttributes
@@ -72996,7 +72996,7 @@ class Mission
 			};
 			id=105976;
 			type="Land_Locomotive_01_v1_F";
-			atlOffset=1.8090668;
+			atlOffset=1.8093109;
 		};
 		class Item381
 		{
