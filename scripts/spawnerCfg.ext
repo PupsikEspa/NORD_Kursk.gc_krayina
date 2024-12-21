@@ -605,7 +605,9 @@ class msco73_spawner_class //73 МЦСО
 	{
         displayName = "Запрос техники";
         vehicles[] =
-        {};
+        {
+            {"mi8_ukr_mtv3",1,"true"}
+        };
         spawnPoints[] =
         {
             {"1",{"msco73_spawnplace"}}
