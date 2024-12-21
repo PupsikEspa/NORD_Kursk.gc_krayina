@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=72525;
+		nextID=72639;
 	};
 	class Camera
 	{
-		pos[]={13895.684,156.09918,13452.074};
-		dir[]={-0.14372222,-0.65144032,-0.74496275};
-		up[]={-0.1234038,0.75869989,-0.63964522};
-		aside[]={-0.9818939,0,0.18943223};
+		pos[]={8288.5303,276.67761,4879.0742};
+		dir[]={0.22492415,-0.6567812,0.71976435};
+		up[]={0.19590053,0.75407839,0.62688732};
+		aside[]={0.95448512,1.0477379e-07,-0.29827353};
 	};
 };
 binarizationWanted=0;
@@ -39795,8 +39795,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2665.3289,165.92651,939.11786};
-				angles[]={0.0053265258,0.88767976,0.016511748};
+				position[]={2665.3293,165.92729,939.11737};
+				angles[]={0.0053232545,0.88767445,0.016510814};
 			};
 			side="Empty";
 			flags=4;
@@ -39806,7 +39806,6 @@ class Mission
 			};
 			id=1065;
 			type="I_E_CargoNet_01_ammo_F";
-			atlOffset=-0.00076293945;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -39831,7 +39830,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_fim92"",""rhs_weap_fgm148""],[5,3]],[[""rhs_fim92_mag"",""rhs_fgm148_magazine_AT""],[5,3]],[[],[]],[[],[]]],false]";
+							value="[[[[""rhs_weap_fim92"",""rhs_weap_fgm148""],[5,3]],[[""rhs_fim92_mag"",""rhs_fgm148_magazine_AT""],[5,3]],[[],[]],[[""Volnorez_Bag""],[2]]],false]";
 						};
 					};
 				};
@@ -41735,8 +41734,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13888.464,115.59672,13444.637};
-						angles[]={6.2746792,3.153815,0.016840594};
+						position[]={13888.464,115.59789,13444.637};
+						angles[]={6.2746854,3.1538098,0.016842427};
 					};
 					side="Empty";
 					flags=4;
@@ -41746,7 +41745,6 @@ class Mission
 					};
 					id=56670;
 					type="I_E_CargoNet_01_ammo_F";
-					atlOffset=-0.0011672974;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -41771,7 +41769,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""RPG_30K"",""Verba_9k333""],[10,5]],[[""RPG_30K_MAG"",""rhs_mine_pmn2_mag"",""rhs_mine_tm62m_mag"",""9m336""],[10,100,50,5]],[[],[]],[[],[]]],false]";
+									value="[[[[""RPG_30K"",""Verba_9k333""],[10,5]],[[""RPG_30K_MAG"",""rhs_mine_pmn2_mag"",""rhs_mine_tm62m_mag"",""9m336""],[10,100,50,5]],[[],[]],[[""Volnorez_Bag""],[2]]],false]";
 								};
 							};
 						};
@@ -42209,7 +42207,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={13895.379,114.95744,13414.364};
-						angles[]={-0,0.027373066,0.020805396};
+						angles[]={0,0.027373066,0.020805396};
 					};
 					side="Empty";
 					flags=4;
