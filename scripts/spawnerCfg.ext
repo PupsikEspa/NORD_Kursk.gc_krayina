@@ -30,8 +30,9 @@ class common_rf_spawner_class //общий рф
             {"rhs_gaz66_ammo_msv",2,"true"},
             {"RUS_MSV_West_atz75557",1,"true"},
             {"RHS_Ural_Repair_MSV_01",1,"true"},
-            {"tbd_120mm_pm_43",2,"true"},
-            {"RUS_VDV_2b14",2,"true"},
+            {"tbd_120mm_pm_43",1,"true"},
+            {"RUS_VDV_2b14",1,"true"},
+            {"tbd_2b9_vasilek",1,"true"},
             {"RUS_VKS_south_mi8amtsh_Unrmed",2,"true"},
             {"RUS_VDV_south_btrd",10,"true"}
 			
@@ -110,7 +111,10 @@ class logistic_rf_spawner_class //ящики рф
 			{"ACE_Track",-1,"true"},
 			{"ACE_Wheel",-1,"true"},
 			{"tbd_mortar_120mm_box",-1,"true"},
-			{"tbd_mortars_100mm_box_he",-1,"true"}
+			{"tbd_mortars_100mm_box_he",-1,"true"},
+            {"tbd_2b9_vasilek_magazine",2,"true"},
+            {"tbd_mortar_82mm_box_he",-1,"true"}
+
         };
         spawnPoints[] =
         {
@@ -340,8 +344,9 @@ class common_vsu_spawner_class //общий всу
 			{"b_afougf_desert_gaz66_ammo",2,"true"},
 			{"ural_ukr_krest_fuel",1,"true"},
 			{"gaz66_ukr_krest_repair",1,"true"},
-			{"tbd_120mm_pm_43",2,"true"},
-			{"b_afougf_old_2b14_82mm",2,"true"},
+			{"tbd_120mm_pm_43",1,"true"},
+			{"b_afougf_old_2b14_82mm",1,"true"},
+            {"tbd_2b9_vasilek",1,"true"},
 			{"b_afougf_Mi8MTV3_Evac200",2,"true"},
 			{"RUS_VDV_btrd",10,"true"}
 		};
@@ -434,7 +439,10 @@ class logistic_vsu_spawner_class //ящики всу
 			{"ACE_Track",-1,"true"},
 			{"ACE_Wheel",-1,"true"},
 			{"tbd_mortar_120mm_box",-1,"true"},
-			{"tbd_mortars_100mm_box_he",-1,"true"}
+			{"tbd_mortars_100mm_box_he",-1,"true"},
+            {"tbd_2b9_vasilek_magazine",2,"true"},
+            {"tbd_mortar_82mm_box_he",-1,"true"}
+            
         };
         spawnPoints[] =
         {
