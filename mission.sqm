@@ -40901,7 +40901,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_fim92"",""rhs_weap_fgm148"",""rhs_weap_maaws""],[10,3,1]],[[""rhs_fim92_mag"",""rhs_fgm148_magazine_AT"",""rhs_mag_maaws_HEAT"",""rhs_mag_maaws_HE"",""za_enhancedmaaws_mag_HEAT551""],[10,3,10,10,10]],[[],[]],[[""Volnorez_Bag""],[2]]],false]";
+							value="[[[[""rhs_weap_fim92"",""rhs_weap_fgm148"",""rhs_weap_maaws""],[10,3,5]],[[""rhs_fim92_mag"",""rhs_fgm148_magazine_AT"",""rhs_mag_maaws_HEAT"",""rhs_mag_maaws_HE"",""za_enhancedmaaws_mag_HEAT551""],[10,3,10,10,10]],[[],[]],[[""Volnorez_Bag""],[2]]],false]";
 						};
 					};
 				};
