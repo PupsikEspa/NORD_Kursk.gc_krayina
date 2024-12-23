@@ -27,6 +27,7 @@ class common_rf_spawner_class //общий рф
             {"rhs_bmp1p_tv",1,"true"},
             {"RUS_GRU_south_btr82a",6,"true"},
             {"VTN_KAMAZ5350_379_ZU23_EMR",1,"true"},
+            {"RUS_VDV_east_kamaz4310",10,"true"},
             {"rhs_gaz66_ammo_msv",2,"true"},
             {"RUS_MSV_West_atz75557",1,"true"},
             {"RHS_Ural_Repair_MSV_01",1,"true"},
@@ -54,7 +55,7 @@ class common_vks_spawner_class //ВКС
         displayName = "Запрос техники ВКС";
         vehicles[] =
         {
-            {"RUS_VKS_south_mi8amtsh",1,"true"},
+            {"RUS_VKS_south_mi8amtsh",2,"true"},
             {"RUS_VKS_south_mi24v_23mm_bez_pturov",1,"true"},
             {"RUS_VKS_east_ka52",1,"true"},
 		};
