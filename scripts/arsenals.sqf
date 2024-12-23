@@ -221,6 +221,17 @@ legion_pidorasov_class = [] spawn ///
 	} forEach _boxes;
 };
 
+ombr47_class = [] spawn /// 
+{
+	_boxes = [ombr47_ars];
+	{
+	_box = _x;
+	_list = ["ACE_epinephrine","ACE_adenosine","ACE_personalAidKit","kat_larynx","ACE_tourniquet","ACE_MapTools","kat_Carbonate","ACE_DefusalKit","ACE_bloodIV","ACE_bloodIV_250","ACE_bloodIV_500","ACE_morphine","ACE_fieldDressing","ACE_elasticBandage","ACE_packingBandage","ACE_Flashlight_KSF1","ACE_Kestrel4500","ACE_microDAGR","rhs_mag_rgd5","rhs_mag_f1","MMM_BaoUV5R","ItemCompass","ItemMap","VTN_B8","rhs_weap_ak74n","rhs_weap_ak74n_gp25","NMG_weapons_RPK","rhs_weap_pkm","rhs_weap_svdp","rhs_weap_rpg18","rhs_weap_rpg7","rhs_weap_rsp30_green","rhs_weap_rsp30_white","rhs_weap_rsp30_red","rhs_acc_pso1m2","rhs_acc_pgo7v3","rhs_acc_dtkakm","rhs_acc_dtk","rhs_acc_dtk1983","tsb_mag_762x39_30rnd_57bz231_metalold","tsb_mag_762x39_30rnd_57n231_metalold","tsb_mag_762x54_100rnd_7bt1","tsb_mag_762x54_100rnd_57n323s","tsb_mag_762x54_10rnd_7bt1","tsb_mag_762x54_10rnd_7bz3","tsb_mag_545x39_45rnd_7bt4_bakelite","tsb_mag_545x39_45rnd_7n22_bakelite","tsb_mag_545x39_30rnd_7n22_bakelite","tsb_mag_545x39_30rnd_7n10m_bakelite","bp_afougf_fast_mm14_01","bp_afougf_assault_mm14","bp_afougf_eagle_mm14","bp_afougf_eagle_mm14_eng","TFAR_mr3000_multicam","TFAR_mr3000_bwmod","MMM_ZSU_ACU_alta_OEFCPtop_MM144bot","MMM_x_ACUSILno_alta_GL2_MM145top_UCPbot","MMM_GPU_ACUS_GL1_OEFCPtop_MM145bot","MMM_UAFI_ACUSIL_GL2_MM145top_OEFCPbot","MMM_MPU_ACU_kn04_GL1_MM145top_MM143bot","MMM_IVU_ACUS_kn04_OEFCPtop_MM143bot","MMM_MVU_ACU_alta_OEFCPtop_OEFCPbot","MMM_MVU_ACUS_alta_MM145top_MM145bot","MMM_UAPL_ACUIL_UCPtop_OCPbot","MMM_IVU_ACUS_kn04_GL2_MM145top_MM144bot","MMM_UAGE_ACUIL_alta_GL2_OCPtop_OEFCPbot","MMM_UAPL_ACUIL_alta_UCPtop_UCPbot","MMM_DShV_ACUS_alta_GL2_MM145top_MM143bot","MMM_UAGE_ACUSIL_alta_MM145top_OCPbot","MMM_IVU_ACUS_kn04_MM145top_MM143bot","MMM_UAGE_ACUIL_OCPtop_OCPbot","MMM_UAUK_ACUSIL_kn04_OCPtop_UCPbot","MMM_GPU_ACU_MM145top_MM143bot","MMM_ZSU_ACUS_alta_GL1_MM145top_MM144bot","vest_mbav_ngu_base","vest_mbav_ngu_light","vest_afougf_6b5_dubok01","vest_afougf_6b5_dubok02","vest_afougf_6b5_dubok03","vest_afougf_6b5_dubok04","vest_afou_tacvest_green","vest_afou_tacvest_camo1","h_afou_ssh68_draw_02","h_afou_ssh68_draw_03","h_afou_ssh68_draw_04","h_afou_ssh68_green01","h_afou_ssh68_green02","h_afou_ssh68_dubok02","h_afou_ssh68_dubok01","h_afou_ssh68_yt_02","h_afou_ssh68_yt_01","ItemWatch","Armband_Yellow_medium2_NVG","Armband_Yellow_medium_NVG","Armband_Yellow_NVG","Armband_Yellow_XL_NVG","Armband_Yellow_XL2_NVG","Armband_Yellow_large_NVG"];
+	_list = _list - restrUKR;
+	[_box, _list] call ace_arsenal_fnc_initBox;
+	} forEach _boxes;
+};
+
 //---СПН---ВСУ
 
 tso_a_class = [] spawn /// 

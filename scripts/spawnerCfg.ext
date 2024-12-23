@@ -572,6 +572,23 @@ class legion_pidorasov_spawner_class //ЛСР
     };
 };
 
+class ombr47_spawner_class //47 ОМБр
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == ombr47_spawner)"; // "(playerSide in [west,independent])"
+    
+    class ombr47_spawner_class
+	{
+        displayName = "Запрос техники 47 ОМБр";
+        vehicles[] =
+        {};
+        spawnPoints[] =
+        {
+            {"1",{"ombr47_spawnplace"}}
+        };
+        
+    };
+};
+
 class tso_a_spawner_class //ЦСО "А"
 {
     conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == tso_a_spawner)"; // "(playerSide in [west,independent])"

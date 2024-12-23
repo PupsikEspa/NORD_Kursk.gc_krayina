@@ -7,5 +7,6 @@ obrmp36_plate setObjectTextureGlobal [0, "scripts\plates_ukr\obrmp36_plate_ca.pa
 ombr61_plate setObjectTextureGlobal [0, "scripts\plates_ukr\ombr61_plate_ca.paa"];
 odshbr95_plate setObjectTextureGlobal [0, "scripts\plates_ukr\odshbr95_plate_ca.paa"];
 legion_pidorasov_plate setObjectTextureGlobal [0, "scripts\plates_ukr\legion_pidorasov_plate_ca.paa"];
+ombr47_plate setObjectTextureGlobal [0, "scripts\plates_ukr\ombr47_plate_ca.paa"];
 gnl_plate setObjectTextureGlobal [0, "scripts\plates_ukr\gnl_plate_ca.paa"];
 psu_plate setObjectTextureGlobal [0, "scripts\plates_ukr\psu_plate_ca.paa"];
