@@ -8,7 +8,7 @@ class CfgClient {
 
 enableDebugConsole = 1;
 respawn="BASE";
-respawnButton=1;
+respawnButton=0;
 respawnOnStart=-1;
 disabledAI=1;
 corpseManagerMode = 1; //включает менеджер удаления трупов
