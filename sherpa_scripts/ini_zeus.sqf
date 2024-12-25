@@ -15,6 +15,7 @@ if (!isDedicated) then {
 
     ["Vostok - Ивентологи", "Старт ивента", { 
         [] call vostok_fnc_start;
+        playSound "audio\battle_start";
     }] call zen_custom_modules_fnc_register;
 
     ["Vostok - Ивентологи", "Победа РФ", { 
@@ -76,7 +77,7 @@ vostok_fnc_start = {
             titleText ["<t color='#f09b67' size='1'>1</t><br/>", "PLAIN", -1, true, true];
             sleep 1;
             titleText ["<t color='#f06767' size='4'>В бой!</t><br/>", "PLAIN", -1, true, true];
-            playSound "audio\battle_start.wss";
+            //playSound "audio\battle_start";
         };
     }] remoteExec ["call", -2, false];
 };
