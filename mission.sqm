@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=73209;
+		nextID=73293;
 	};
 	class Camera
 	{
 		pos[]={7133.001,183.60791,1119.8633};
-		dir[]={0.43582165,-0.55032092,0.71218902};
-		up[]={0.28725171,0.83495045,0.4694066};
-		aside[]={0.85296607,-5.0495146e-08,-0.52196991};
+		dir[]={0.53927952,-0.18258396,0.8221004};
+		up[]={0.10014986,0.98318887,0.1526728};
+		aside[]={0.8361544,-1.2683449e-07,-0.54849899};
 	};
 };
 binarizationWanted=0;
@@ -584,7 +584,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -610,7 +610,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -623,7 +623,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -636,7 +636,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -66457,7 +66457,7 @@ class Mission
 			type="";
 			a=100;
 			b=1053.8842;
-			angle=19.327496;
+			angle=19.327494;
 			id=104757;
 			atlOffset=-6.7325592;
 			class CustomAttributes
@@ -66514,7 +66514,7 @@ class Mission
 			type="";
 			a=100;
 			b=1263.1667;
-			angle=338.72787;
+			angle=338.72784;
 			id=104758;
 			atlOffset=22.843506;
 			class CustomAttributes
@@ -73524,7 +73524,7 @@ class Mission
 			type="";
 			a=100;
 			b=782.92041;
-			angle=216.72864;
+			angle=216.72862;
 			id=107747;
 			atlOffset=45.734436;
 			class CustomAttributes
@@ -74478,21 +74478,21 @@ class Mission
 			dataType="Layer";
 			name="Наскоро построенный блокпост";
 			id=107777;
-			atlOffset=-0.13708496;
+			atlOffset=-161.72301;
 		};
 		class Item408
 		{
 			dataType="Layer";
 			name="Наскоро построенный блокпост";
 			id=107785;
-			atlOffset=-0.1053009;
+			atlOffset=-161.72301;
 		};
 		class Item409
 		{
 			dataType="Layer";
 			name="Лагерь ""Авторитет""";
 			id=107842;
-			atlOffset=0.025924683;
+			atlOffset=-161.72301;
 		};
 		class Item410
 		{
@@ -74694,7 +74694,7 @@ class Mission
 					};
 					id=107852;
 					type="RoadBarrier_F";
-					atlOffset=1.5258789e-05;
+					atlOffset=-0.010925293;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -74750,7 +74750,7 @@ class Mission
 				};
 			};
 			id=107854;
-			atlOffset=-0.1661377;
+			atlOffset=-0.0081939697;
 		};
 		class Item411
 		{
@@ -74931,13 +74931,13 @@ class Mission
 				angles[]={0.73260194,0,0.87795299};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
 			id=107860;
 			type="Land_CzechHedgehog_01_new_F";
+			atlOffset=0.41362;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -75309,7 +75309,7 @@ class Mission
 			};
 			id=107870;
 			type="RUS_MP_south_btr82a";
-			atlOffset=-0.5;
+			atlOffset=-0.50282288;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -75620,7 +75620,7 @@ class Mission
 			};
 			id=107871;
 			type="RUS_MP_south_r142n";
-			atlOffset=-0.5;
+			atlOffset=-0.49661255;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -75911,7 +75911,7 @@ class Mission
 			colorName="ColorCIV";
 			a=335.91736;
 			b=50;
-			angle=44.946659;
+			angle=44.946655;
 			id=107875;
 			atlOffset=0.66116333;
 			class CustomAttributes
@@ -76085,7 +76085,7 @@ class Mission
 			colorName="ColorCIV";
 			a=524.75757;
 			b=46.733372;
-			angle=91.135674;
+			angle=91.135666;
 			id=107878;
 			atlOffset=1.9088745;
 			class CustomAttributes
@@ -76143,7 +76143,7 @@ class Mission
 			colorName="ColorCIV";
 			a=845.27795;
 			b=46.733372;
-			angle=91.135666;
+			angle=91.135658;
 			id=107879;
 			atlOffset=4.7386322;
 			class CustomAttributes
@@ -76201,7 +76201,7 @@ class Mission
 			colorName="ColorCIV";
 			a=845.27795;
 			b=46.733372;
-			angle=91.135658;
+			angle=91.135651;
 			id=107880;
 			atlOffset=4.738678;
 			class CustomAttributes
