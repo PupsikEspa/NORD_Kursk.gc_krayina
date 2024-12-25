@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6978.0015,172.65509,2891.2356};
-		dir[]={-0.15171336,-0.37489519,0.91457278};
-		up[]={-0.061351206,0.9270668,0.36984321};
-		aside[]={0.98652244,-6.0535967e-09,0.16364849};
+		pos[]={7428.0928,194.3833,3491.1921};
+		dir[]={0.38357943,-0.48443195,0.78625405};
+		up[]={0.21240526,0.87482721,0.43538463};
+		aside[]={0.89875078,1.9464642e-07,-0.43846107};
 	};
 };
 binarizationWanted=0;
@@ -30201,7 +30201,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=413;
+		items=439;
 		class Item0
 		{
 			dataType="Layer";
@@ -73198,6 +73198,167 @@ class Mission
 		};
 		class Item366
 		{
+			dataType="Layer";
+			name="Блокпост";
+			id=105882;
+			atlOffset=-161.72301;
+		};
+		class Item367
+		{
+			dataType="Layer";
+			name="Наскоро построенный блокпост";
+			id=105890;
+			atlOffset=-161.72301;
+		};
+		class Item368
+		{
+			dataType="Layer";
+			name="Наскоро построенный блокпост";
+			id=105900;
+			atlOffset=-161.72301;
+		};
+		class Item369
+		{
+			dataType="Layer";
+			name="Блокпост";
+			id=105997;
+			atlOffset=-161.72301;
+		};
+		class Item370
+		{
+			dataType="Layer";
+			name="Наскоро построенный блокпост";
+			id=106005;
+			atlOffset=-161.72301;
+		};
+		class Item371
+		{
+			dataType="Layer";
+			name="Наскоро построенный блокпост";
+			id=106014;
+			atlOffset=-161.72301;
+		};
+		class Item372
+		{
+			dataType="Layer";
+			name="Лагерь ""Авторитет""";
+			id=106113;
+			atlOffset=-161.72301;
+		};
+		class Item373
+		{
+			dataType="Layer";
+			name="Лагерь ""Целостность""";
+			id=106166;
+			atlOffset=-161.72301;
+		};
+		class Item374
+		{
+			dataType="Layer";
+			name="Лагерь ""Авторитет""";
+			id=106223;
+			atlOffset=-161.72301;
+		};
+		class Item375
+		{
+			dataType="Layer";
+			name="Лагерь ""Благородство""";
+			id=106273;
+			atlOffset=-161.72301;
+		};
+		class Item376
+		{
+			dataType="Layer";
+			name="Лагерь ""Единство""";
+			id=106324;
+			atlOffset=-161.72301;
+		};
+		class Item377
+		{
+			dataType="Layer";
+			name="Лагерь ""Флагман""";
+			id=106375;
+			atlOffset=-161.72301;
+		};
+		class Item378
+		{
+			dataType="Layer";
+			name="Лагерь ""Бегемот""";
+			id=106418;
+			atlOffset=-161.72301;
+		};
+		class Item379
+		{
+			dataType="Layer";
+			name="Лагерь ""Цапля""";
+			id=106451;
+			atlOffset=-161.72301;
+		};
+		class Item380
+		{
+			dataType="Layer";
+			name="Лагерь ""Бегемот""";
+			id=106494;
+			atlOffset=-161.72301;
+		};
+		class Item381
+		{
+			dataType="Layer";
+			name="Лагерь ""Благородство""";
+			id=106544;
+			atlOffset=-161.72301;
+		};
+		class Item382
+		{
+			dataType="Layer";
+			name="Лагерь ""Ехидна""";
+			id=106567;
+			atlOffset=-161.72301;
+		};
+		class Item383
+		{
+			dataType="Layer";
+			name="Лагерь ""Ехидна""";
+			id=106590;
+			atlOffset=-161.72301;
+		};
+		class Item384
+		{
+			dataType="Layer";
+			name="Лагерь ""Цапля""";
+			id=106623;
+			atlOffset=-161.72301;
+		};
+		class Item385
+		{
+			dataType="Layer";
+			name="Лагерь ""Филин""";
+			id=106645;
+			atlOffset=-161.72301;
+		};
+		class Item386
+		{
+			dataType="Layer";
+			name="Лагерь ""Аллигатор""";
+			id=106682;
+			atlOffset=-161.72301;
+		};
+		class Item387
+		{
+			dataType="Layer";
+			name="Лагерь ""Ехидна""";
+			id=106705;
+			atlOffset=-161.72301;
+		};
+		class Item388
+		{
+			dataType="Layer";
+			name="Лагерь ""Цапля""";
+			id=106738;
+			atlOffset=-161.72301;
+		};
+		class Item389
+		{
 			dataType="Group";
 			side="Civilian";
 			class Entities
@@ -73354,7 +73515,7 @@ class Mission
 			id=107740;
 			atlOffset=-7.6293945e-06;
 		};
-		class Item367
+		class Item390
 		{
 			dataType="Marker";
 			position[]={9620.1963,212.05974,4425.1387};
@@ -73411,7 +73572,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item368
+		class Item391
 		{
 			dataType="Marker";
 			position[]={8691.9736,211.77342,3797.4246};
@@ -73468,7 +73629,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item369
+		class Item392
 		{
 			dataType="Marker";
 			position[]={7324.7549,151.957,1128.6609};
@@ -73525,7 +73686,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item370
+		class Item393
 		{
 			dataType="Marker";
 			position[]={7207.751,152.5,1264.672};
@@ -73582,7 +73743,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item371
+		class Item394
 		{
 			dataType="Marker";
 			position[]={7090.6978,154.63159,1128.9463};
@@ -73639,7 +73800,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item372
+		class Item395
 		{
 			dataType="Marker";
 			position[]={7208.0005,152.31895,992.76044};
@@ -73696,7 +73857,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item373
+		class Item396
 		{
 			dataType="Marker";
 			position[]={7337.998,152.504,1280.048};
@@ -73750,7 +73911,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item374
+		class Item397
 		{
 			dataType="Marker";
 			position[]={7000.1577,155.09801,2892.3228};
@@ -73807,7 +73968,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item375
+		class Item398
 		{
 			dataType="Marker";
 			position[]={6947.0352,155.063,2958.1951};
@@ -73864,7 +74025,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item376
+		class Item399
 		{
 			dataType="Marker";
 			position[]={6894.084,156.17569,2891.9617};
@@ -73921,7 +74082,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item377
+		class Item400
 		{
 			dataType="Marker";
 			position[]={6946.9614,152.37294,2826.1367};
@@ -73977,7 +74138,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item378
+		class Item401
 		{
 			dataType="Marker";
 			position[]={7017.3242,155.026,2960.605};
@@ -74030,7 +74191,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item379
+		class Item402
 		{
 			dataType="Marker";
 			position[]={7489.3804,169.54189,3548.3337};
@@ -74087,7 +74248,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item380
+		class Item403
 		{
 			dataType="Marker";
 			position[]={7436.2578,167.27534,3614.2061};
@@ -74144,7 +74305,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item381
+		class Item404
 		{
 			dataType="Marker";
 			position[]={7383.3066,168.60228,3547.9727};
@@ -74201,7 +74362,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item382
+		class Item405
 		{
 			dataType="Marker";
 			position[]={7436.1841,166.32112,3482.1477};
@@ -74258,7 +74419,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item383
+		class Item406
 		{
 			dataType="Marker";
 			position[]={7509.1172,169.024,3631.9751};
@@ -74312,7 +74473,28 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item384
+		class Item407
+		{
+			dataType="Layer";
+			name="Наскоро построенный блокпост";
+			id=107777;
+			atlOffset=-161.72301;
+		};
+		class Item408
+		{
+			dataType="Layer";
+			name="Наскоро построенный блокпост";
+			id=107785;
+			atlOffset=-161.72301;
+		};
+		class Item409
+		{
+			dataType="Layer";
+			name="Лагерь ""Авторитет""";
+			id=107842;
+			atlOffset=-161.72301;
+		};
+		class Item410
 		{
 			dataType="Layer";
 			name="Блокпост";
@@ -74570,7 +74752,7 @@ class Mission
 			id=107854;
 			atlOffset=-0.0081939697;
 		};
-		class Item385
+		class Item411
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74604,7 +74786,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item386
+		class Item412
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74638,7 +74820,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item387
+		class Item413
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74672,7 +74854,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item388
+		class Item414
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74706,7 +74888,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item389
+		class Item415
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74740,7 +74922,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item390
+		class Item416
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74774,7 +74956,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item391
+		class Item417
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74809,7 +74991,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item392
+		class Item418
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74843,7 +75025,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item393
+		class Item419
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74890,7 +75072,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item394
+		class Item420
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74924,7 +75106,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item395
+		class Item421
 		{
 			dataType="Object";
 			class PositionInfo
@@ -74972,7 +75154,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item396
+		class Item422
 		{
 			dataType="Object";
 			class PositionInfo
@@ -75006,7 +75188,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item397
+		class Item423
 		{
 			dataType="Object";
 			class PositionInfo
@@ -75040,7 +75222,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item398
+		class Item424
 		{
 			dataType="Object";
 			class PositionInfo
@@ -75074,7 +75256,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item399
+		class Item425
 		{
 			dataType="Object";
 			class PositionInfo
@@ -75108,12 +75290,12 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item400
+		class Item426
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7440.2075,169.22913,3518.991};
+				position[]={7440.207,169.22888,3518.9912};
 				angles[]={6.0458555,4.1080861,0.067369707};
 			};
 			side="Empty";
@@ -75127,7 +75309,7 @@ class Mission
 			};
 			id=107870;
 			type="RUS_MP_south_btr82a";
-			atlOffset=-0.50282288;
+			atlOffset=-0.50300598;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -75256,7 +75438,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Russia";
+							value="";
 						};
 					};
 				};
@@ -75419,7 +75601,7 @@ class Mission
 				nAttributes=22;
 			};
 		};
-		class Item401
+		class Item427
 		{
 			dataType="Object";
 			class PositionInfo
@@ -75548,7 +75730,7 @@ class Mission
 				nAttributes=8;
 			};
 		};
-		class Item402
+		class Item428
 		{
 			dataType="Marker";
 			position[]={8037.3569,178.98811,4394.7817};
@@ -75605,7 +75787,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item403
+		class Item429
 		{
 			dataType="Marker";
 			position[]={7423.0039,160.129,40.402};
@@ -75662,7 +75844,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item404
+		class Item430
 		{
 			dataType="Marker";
 			position[]={7215.083,157.722,5156.7969};
@@ -75719,7 +75901,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item405
+		class Item431
 		{
 			dataType="Marker";
 			position[]={10080.578,166.08247,4950.0078};
@@ -75777,7 +75959,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item406
+		class Item432
 		{
 			dataType="Marker";
 			position[]={10353.914,162.02933,4069.363};
@@ -75835,7 +76017,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item407
+		class Item433
 		{
 			dataType="Marker";
 			position[]={10066.907,173.91064,3052.0737};
@@ -75893,7 +76075,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item408
+		class Item434
 		{
 			dataType="Marker";
 			position[]={9739.1279,167.91962,2182.0471};
@@ -75951,7 +76133,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item409
+		class Item435
 		{
 			dataType="Marker";
 			position[]={9710.4971,163.9538,835.81293};
@@ -76009,7 +76191,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item410
+		class Item436
 		{
 			dataType="Marker";
 			position[]={4820.1948,171.13976,854.42157};
@@ -76067,7 +76249,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item411
+		class Item437
 		{
 			dataType="Marker";
 			position[]={4735.9126,157.59605,2432.0188};
@@ -76125,7 +76307,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item412
+		class Item438
 		{
 			dataType="Marker";
 			position[]={4607.9785,137.20717,4222.3306};
