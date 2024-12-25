@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=73377;
+		nextID=73545;
 	};
 	class Camera
 	{
-		pos[]={7428.0928,194.3833,3491.1921};
-		dir[]={0.38357943,-0.48443195,0.78625405};
-		up[]={0.21240526,0.87482721,0.43538463};
-		aside[]={0.89875078,1.9464642e-07,-0.43846107};
+		pos[]={7469.6216,184.90083,3512.5005};
+		dir[]={-0.4686991,-0.60304159,0.64550656};
+		up[]={-0.35432369,0.79769963,0.48798445};
+		aside[]={0.80919546,-3.3993274e-08,0.58755332};
 	};
 };
 binarizationWanted=0;
@@ -544,6 +544,7 @@ class ScenarioData
 	author="ESP";
 	disabledAI=1;
 	respawn=3;
+	respawnDelay=5;
 	wreckRemovalMaxTime=3600;
 };
 class CustomAttributes
@@ -73148,7 +73149,7 @@ class Mission
 			type="";
 			a=100;
 			b=1119.6073;
-			angle=107.45364;
+			angle=107.45362;
 			id=105870;
 			atlOffset=29.516403;
 			class CustomAttributes
@@ -73524,7 +73525,7 @@ class Mission
 			type="";
 			a=100;
 			b=782.92041;
-			angle=216.72861;
+			angle=216.72856;
 			id=107747;
 			atlOffset=45.734436;
 			class CustomAttributes
@@ -75911,7 +75912,7 @@ class Mission
 			colorName="ColorCIV";
 			a=335.91736;
 			b=50;
-			angle=44.946651;
+			angle=44.94664;
 			id=107875;
 			atlOffset=0.66116333;
 			class CustomAttributes
@@ -76085,7 +76086,7 @@ class Mission
 			colorName="ColorCIV";
 			a=524.75757;
 			b=46.733372;
-			angle=91.135658;
+			angle=91.135643;
 			id=107878;
 			atlOffset=1.9088745;
 			class CustomAttributes
@@ -76143,7 +76144,7 @@ class Mission
 			colorName="ColorCIV";
 			a=845.27795;
 			b=46.733372;
-			angle=91.135651;
+			angle=91.135643;
 			id=107879;
 			atlOffset=4.7386322;
 			class CustomAttributes
