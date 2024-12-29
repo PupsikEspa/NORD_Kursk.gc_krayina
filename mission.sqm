@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=126659;
+		nextID=126676;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=75025;
+		nextID=75233;
 	};
 	class Camera
 	{
-		pos[]={6322.3418,955.67468,9574.3486};
-		dir[]={-0.65326685,-0.54679465,-0.5239321};
-		up[]={-0.42663145,0.83722651,-0.34216624};
-		aside[]={-0.62572527,1.0789372e-06,0.78018844};
+		pos[]={3914.938,608.45392,4010.3958};
+		dir[]={-0.65318346,-0.54672736,-0.52387077};
+		up[]={-0.42650026,0.83731061,-0.34206471};
+		aside[]={-0.62565869,-1.4901161e-08,0.78009677};
 	};
 };
 binarizationWanted=0;
@@ -560,7 +560,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -586,7 +586,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -599,7 +599,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -612,7 +612,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -30177,7 +30177,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=440;
+		items=447;
 		class Item0
 		{
 			dataType="Layer";
@@ -66825,7 +66825,7 @@ class Mission
 			type="";
 			a=100;
 			b=706.30811;
-			angle=353.50934;
+			angle=353.50928;
 			id=104756;
 			atlOffset=4.4224091;
 			class CustomAttributes
@@ -73573,7 +73573,7 @@ class Mission
 			type="";
 			a=100;
 			b=1119.6073;
-			angle=107.45358;
+			angle=107.45357;
 			id=105870;
 			atlOffset=29.516403;
 			class CustomAttributes
@@ -75225,7 +75225,7 @@ class Mission
 			type="";
 			a=100;
 			b=1038.9961;
-			angle=320.81366;
+			angle=320.8136;
 			id=126611;
 			atlOffset=13.654816;
 			class CustomAttributes
@@ -75276,122 +75276,6 @@ class Mission
 		class Item426
 		{
 			dataType="Marker";
-			position[]={3176.7629,141.59068,9134.082};
-			name="marker_757";
-			markerType="RECTANGLE";
-			type="";
-			colorName="ColorBlue";
-			a=50;
-			b=1314.1309;
-			angle=352.84265;
-			id=126613;
-			atlOffset=1.7881775;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="markerblink";
-					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-							class value
-							{
-								items=3;
-								class Item0
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item2
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-							};
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item427
-		{
-			dataType="Marker";
-			position[]={6521.5391,152.047,7887.418};
-			name="marker_760";
-			markerType="RECTANGLE";
-			type="";
-			colorName="ColorBlue";
-			a=1340.572;
-			b=50;
-			angle=304.89297;
-			id=126616;
-			atlOffset=10.750809;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="markerblink";
-					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-							class value
-							{
-								items=3;
-								class Item0
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item2
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-							};
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item428
-		{
-			dataType="Marker";
 			position[]={4698.626,137.84599,9029.1641};
 			name="marker_761";
 			markerType="RECTANGLE";
@@ -75399,7 +75283,7 @@ class Mission
 			colorName="ColorYellow";
 			a=11.997;
 			b=132.548;
-			angle=173.30298;
+			angle=173.30295;
 			id=126617;
 			atlOffset=0.00010681152;
 			class CustomAttributes
@@ -75447,7 +75331,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item429
+		class Item427
 		{
 			dataType="Marker";
 			position[]={4825.832,138.39999,8921.2939};
@@ -75505,7 +75389,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item430
+		class Item428
 		{
 			dataType="Marker";
 			position[]={4926.1621,140.285,9052.5732};
@@ -75515,7 +75399,7 @@ class Mission
 			colorName="ColorYellow";
 			a=11.997;
 			b=132.38;
-			angle=353.94598;
+			angle=353.94592;
 			id=126622;
 			atlOffset=0.25161743;
 			class CustomAttributes
@@ -75563,7 +75447,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item431
+		class Item429
 		{
 			dataType="Marker";
 			position[]={4799.0601,139.464,9160.4492};
@@ -75621,7 +75505,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item432
+		class Item430
 		{
 			dataType="Marker";
 			position[]={5801.751,142.98489,8211.4727};
@@ -75679,7 +75563,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item433
+		class Item431
 		{
 			dataType="Marker";
 			position[]={5968.5273,141.70393,8209.748};
@@ -75689,9 +75573,125 @@ class Mission
 			colorName="ColorYellow";
 			a=11.997;
 			b=101.89;
-			angle=224.3835;
+			angle=224.38347;
 			id=126625;
 			atlOffset=-1.5258789e-05;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item432
+		{
+			dataType="Marker";
+			position[]={5961.8486,140.11841,8374.8418};
+			name="marker_767";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorYellow";
+			a=11.997;
+			b=132.38;
+			angle=314.24042;
+			id=126626;
+			atlOffset=0.33863831;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item433
+		{
+			dataType="Marker";
+			position[]={5795.0259,137.77441,8376.7568};
+			name="marker_768";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorYellow";
+			a=12.168586;
+			b=103.122;
+			angle=224.38347;
+			id=126627;
+			atlOffset=0.033462524;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -75740,16 +75740,16 @@ class Mission
 		class Item434
 		{
 			dataType="Marker";
-			position[]={5961.8486,140.11841,8374.8418};
-			name="marker_767";
+			position[]={3321.644,142.56833,9109.999};
+			name="marker_769";
 			markerType="RECTANGLE";
 			type="";
 			colorName="ColorYellow";
 			a=11.997;
-			b=132.38;
-			angle=314.24048;
-			id=126626;
-			atlOffset=0.33863831;
+			b=132.548;
+			angle=261.96613;
+			id=126628;
+			atlOffset=0.00033569336;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -75798,16 +75798,16 @@ class Mission
 		class Item435
 		{
 			dataType="Marker";
-			position[]={5795.0259,137.77441,8376.7568};
-			name="marker_768";
+			position[]={3216.771,139.45648,8980.3105};
+			name="marker_770";
 			markerType="RECTANGLE";
 			type="";
 			colorName="ColorYellow";
-			a=12.168586;
-			b=103.122;
-			angle=224.3835;
-			id=126627;
-			atlOffset=0.033462524;
+			a=11.997;
+			b=101.89;
+			angle=352.75214;
+			id=126629;
+			atlOffset=0.00035095215;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -75856,16 +75856,16 @@ class Mission
 		class Item436
 		{
 			dataType="Marker";
-			position[]={3514.8257,144.0188,9002.2012};
-			name="marker_769";
+			position[]={3350.355,135.87704,8883.0713};
+			name="marker_771";
 			markerType="RECTANGLE";
 			type="";
 			colorName="ColorYellow";
 			a=11.997;
-			b=132.548;
-			angle=172.22945;
-			id=126628;
-			atlOffset=0.08505249;
+			b=132.38;
+			angle=82.609138;
+			id=126630;
+			atlOffset=0.25138855;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -75914,15 +75914,16 @@ class Mission
 		class Item437
 		{
 			dataType="Marker";
-			position[]={3644.0305,137.71333,8896.7334};
-			name="marker_770";
+			position[]={3455.2363,143.24414,9012.6553};
+			name="marker_772";
 			markerType="RECTANGLE";
 			type="";
 			colorName="ColorYellow";
 			a=11.997;
-			b=101.89;
-			angle=263.01547;
-			id=126629;
+			b=103.122;
+			angle=352.75214;
+			id=126631;
+			atlOffset=0.00033569336;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -75971,16 +75972,15 @@ class Mission
 		class Item438
 		{
 			dataType="Marker";
-			position[]={3741.8833,145.67094,9029.8691};
-			name="marker_771";
+			position[]={2506.9661,140.366,6340.6582};
+			name="marker_773";
 			markerType="RECTANGLE";
 			type="";
-			colorName="ColorYellow";
-			a=11.997;
-			b=132.38;
-			angle=352.87244;
-			id=126630;
-			atlOffset=0.33657837;
+			colorName="ColorCIV";
+			a=2507.0249;
+			b=50;
+			id=126659;
+			atlOffset=2.9772339;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -76029,15 +76029,420 @@ class Mission
 		class Item439
 		{
 			dataType="Marker";
-			position[]={3612.7825,143.4269,9135.3447};
-			name="marker_772";
+			position[]={5327.5098,168.54126,6070.1309};
+			name="marker_774";
 			markerType="RECTANGLE";
 			type="";
-			colorName="ColorYellow";
-			a=11.997;
-			b=103.122;
-			angle=263.01547;
-			id=126631;
+			colorName="ColorCIV";
+			a=452.29883;
+			b=50;
+			angle=38.813789;
+			id=126660;
+			atlOffset=18.595062;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item440
+		{
+			dataType="Marker";
+			position[]={2507.6008,138.74573,11393.107};
+			name="marker_775";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorCIV";
+			a=2507.0249;
+			b=50;
+			id=126661;
+			atlOffset=2.9770508;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item441
+		{
+			dataType="Marker";
+			position[]={5559.7734,142.80701,11143.005};
+			name="marker_776";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorCIV";
+			a=626.45435;
+			b=50;
+			angle=204.13443;
+			id=126662;
+			atlOffset=19.061546;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item442
+		{
+			dataType="Marker";
+			position[]={6718.8296,125.41706,10318.771};
+			name="marker_777";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorCIV";
+			a=861.40253;
+			b=50;
+			angle=221.90857;
+			id=126663;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item443
+		{
+			dataType="Marker";
+			position[]={8219.9189,149.71527,9141.9385};
+			name="marker_778";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorCIV";
+			a=1079.3243;
+			b=50;
+			angle=34.698627;
+			id=126664;
+			atlOffset=10.436172;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item444
+		{
+			dataType="Marker";
+			position[]={6030.1724,174.98471,5503.5508};
+			name="marker_779";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorCIV";
+			a=452.29883;
+			b=50;
+			angle=38.813789;
+			id=126673;
+			atlOffset=18.594727;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item445
+		{
+			dataType="Marker";
+			position[]={6756.0317,179.44716,5421.5386};
+			name="marker_780";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorCIV";
+			a=466.56647;
+			b=50;
+			angle=336.11478;
+			id=126674;
+			atlOffset=18.775574;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item446
+		{
+			dataType="Marker";
+			position[]={9038.4424,153.09479,8279.374};
+			name="marker_781";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorCIV";
+			a=305.88342;
+			b=50;
+			angle=98.352005;
+			id=126675;
+			atlOffset=12.954025;
 			class CustomAttributes
 			{
 				class Attribute0
